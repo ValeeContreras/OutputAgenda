@@ -1,0 +1,117 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "CSPrestaciones",
+      "title" : "CS Prestaciones",
+      "description" : "Codigos de las prestaciones",
+      "uses" : {
+      },
+      "ValueSet-VSPrestaciones.html" : "VS Prestaciones"
+    },
+    {
+      "url" : "http://agenda.cl/CodeSystem/CSPrevision",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "CSPrevision",
+      "title" : "CS Prevision",
+      "description" : "Codigos de la previsión del paciente",
+      "uses" : {
+      },
+      "ValueSet-VSPrevision.html" : "VS Prevision"
+    },
+    {
+      "url" : "http://agenda.cl/CodeSystem/CSServicios",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "CSServicios",
+      "title" : "CSServicios",
+      "description" : "Aca estan los codigos del servicio del prestador que dara la cita",
+      "uses" : {
+      },
+      "ValueSet-VSServicios.html" : "VS SERVICIOS"
+    },
+    {
+      "url" : "http://agenda.cl/CodeSystem/CSSintomasEspeciales",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "CSSintomasEspeciales",
+      "title" : "CS Sintomas Especiales",
+      "description" : "Codigos de los sintomas que presenta el paciente.",
+      "uses" : {
+      },
+      "ValueSet-VSSintomasEspeciales.html" : "VS Sintomas Especiales"
+    },
+    {
+      "url" : "http://agenda.cl/CodeSystem/CSUrgenciaPercibida",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "CSUrgenciaPercibida",
+      "title" : "CS Urgencia Percibida",
+      "description" : "Codidos de la urgencia percibida segun el paciente.",
+      "uses" : {
+      },
+      "ValueSet-VSUrgenciaPercibida.html" : "VS Urgencia Percibida"
+    },
+    {
+      "url" : "http://snomed.info/sct",
+      "version" : null,
+      "status" : "active",
+      "name" : "SNOMED_CT",
+      "title" : "SNOMED CT (all versions)",
+      "description" : "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
+      "oids" : ["2.16.840.1.113883.6.96"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-c80-practice-codes.html" : "Practice Setting Code Value Set"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "version" : "4.0.0",
+      "status" : "active",
+      "name" : "IdentifierType",
+      "title" : "identifierType",
+      "description" : "HL7-defined code system of concepts specifying type of identifier. Used in HL7 Version 2.x messaging data types CX, PLN, PPN, XCN and XON.",
+      "oids" : ["2.16.840.1.113883.18.108"],
+      "uses" : {
+      },
+      "https://hl7chile.cl/fhir/ig/clcore/1.8.5/ValueSet-VSTiposDocumentos.html" : "Tipos de Documentos"
+    },
+    {
+      "url" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoDNI",
+      "version" : "1.8.5",
+      "status" : "active",
+      "name" : "CSCodigoDNI",
+      "title" : "Códigos de Documentos DNI para LATAM y el Caribe",
+      "description" : "Códigos para los DNI de países de America Latina y el Caribe según indicaciones de VS HL7 de V3",
+      "uses" : {
+      },
+      "https://hl7chile.cl/fhir/ig/clcore/1.8.5/ValueSet-VSTiposDocumentos.html" : "Tipos de Documentos"
+    },
+    {
+      "url" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+      "version" : "1.8.5",
+      "status" : "active",
+      "name" : "CSEspecialidadesDeisCL",
+      "title" : "Códigos de Especialidades",
+      "description" : "Códigos de especialidades médicas descritas según DEIS",
+      "uses" : {
+      },
+      "https://hl7chile.cl/fhir/ig/clcore/1.8.5/ValueSet-VSEspecialidadesDeisCL.html" : "Códigos de Especialidades",
+      "ValueSet-VSEspecialidadesDeisCL.html" : "VS Códigos de Especialidades"
+    },
+    {
+      "url" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador",
+      "version" : "1.8.5",
+      "status" : "active",
+      "name" : "CSTipoIdentificador",
+      "title" : "Tipo Identificador",
+      "description" : "Tipo Identificador",
+      "uses" : {
+      },
+      "https://hl7chile.cl/fhir/ig/clcore/1.8.5/ValueSet-VSTiposDocumentos.html" : "Tipos de Documentos"
+    }
+  ]
+}

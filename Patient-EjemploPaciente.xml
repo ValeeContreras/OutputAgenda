@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patient xmlns="http://hl7.org/fhir">
+  <id value="EjemploPaciente"/>
+  <meta>
+    <profile value="http://agenda.cl/StructureDefinition/Paciente"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;"><b>Contreras Valentina Daniela </b> (no stated gender), DoB: 2001-02-10 ( 20706399-1)</p><hr/><table class="grid"><tr><td style="background-color: #f3f5da" title="Da la prevision del paciente"><a href="StructureDefinition-Prevision.html">Prevision del paciente:</a></td><td colspan="3"><ul><li>01</li></ul></td></tr><tr><td style="background-color: #f3f5da" title="Da la edad del paciente"><a href="StructureDefinition-Edad.html">Edad del paciente:</a></td><td colspan="3"><ul><li>23</li></ul></td></tr></table></div>
+  </text>
+  <extension url="http://agenda.cl/StructureDefinition/Edad">
+    <valueInteger value="23"/>
+  </extension>
+  <extension url="http://agenda.cl/StructureDefinition/Prevision">
+    <valueCode value="01"/>
+  </extension>
+  <identifier>
+    <value value="20706399-1"/>
+  </identifier>
+  <name>
+    <family value="Valentina Daniela"/>
+    <given value="Contreras"/>
+  </name>
+  <birthDate value="2001-02-10"/>
+</Patient>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="VSUrgenciaPercibida"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-CSUrgenciaPercibida.html"><code>http://agenda.cl/CodeSystem/CSUrgenciaPercibida</code></a></li></ul></div>
+  </text>
+  <url value="http://agenda.cl/ValueSet/VSUrgenciaPercibida"/>
+  <version value="0.1.0"/>
+  <name value="VSUrgenciaPercibida"/>
+  <title value="VS Urgencia Percibida"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2024-06-11T20:58:46-04:00"/>
+  <publisher value="Valentina Contreras"/>
+  <contact>
+    <name value="Valentina Contreras"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Traigo los codigos de la urgencia percibida"/>
+  <compose>
+    <include>
+      <system value="http://agenda.cl/CodeSystem/CSUrgenciaPercibida"/>
+    </include>
+  </compose>
+</ValueSet>

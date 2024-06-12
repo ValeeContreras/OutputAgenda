@@ -1,0 +1,1342 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "ba100725-9235-4f96-9c1a-0ebd85e0b3ca",
+  "meta" : {
+    "lastUpdated" : "2024-06-11T20:58:46.745-04:00"
+  },
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "http://agenda.cl/ValueSet/VSEspecialidadesDeisCL",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html\">codesystem Códigos de Especialidades v1.8.5 (CodeSystem)</a></p><p>This value set contains 68 concepts.</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-01\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-01\">01</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Anatomía Patológica</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-02\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-02\">02</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Anestesiología</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-03\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-03\">03</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Cardiología</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-04\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-04\">04</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Cirugía General</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-05\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-05\">05</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Cirugía de Cabeza, Cuello y Maxilofacial</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-06\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-06\">06</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Cirugía Cardiovascular</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-07\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-07\">07</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Cirugía  de Tórax</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-08\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-08\">08</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Cirugía Plástica y Reparadora</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-09\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-09\">09</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Cirugía Pediátrica</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-10\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-10\">10</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Cirugía Vascular Periférica</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-11\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-11\">11</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Coloproctología</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-12\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-12\">12</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Dermatología</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-13\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-13\">13</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Diabetología</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-14\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-14\">14</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Endocrinología Adulto</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-15\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-15\">15</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Endocrinología Pediatrica</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-16\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-16\">16</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Enfermedades Respiratorias del Adulto (Broncopulmonar)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-17\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-17\">17</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Enfermedades Respiratorias Pediátricas(Broncopulmonar Pediátrico)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-18\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-18\">18</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Gastroenterología Adulto</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-19\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-19\">19</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Gastroenterología Pediátrica</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-20\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-20\">20</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Genética Clínica</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-21\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-21\">21</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Geriatría</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-22\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-22\">22</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Ginecología Pediátrica y de la Adolescencia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-23\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-23\">23</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Hematología</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-24\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-24\">24</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Imagenología</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-25\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-25\">25</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Infectología</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-26\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-26\">26</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Inmunología</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-27\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-27\">27</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Laboratorio Clínico</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-28\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-28\">28</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Medicina Familiar</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-29\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-29\">29</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Medicina Física y Rehabilitación (Fisiatria Adulto)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-30\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-30\">30</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Medicina Interna</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-31\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-31\">31</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Medicina Intensiva Adulto</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-32\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-32\">32</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Medicina Intensiva Pediátrica</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-33\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-33\">33</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Medicina Legal</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-34\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-34\">34</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Medicina Materno Infantil</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-35\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-35\">35</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Medicina Nuclear</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-36\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-36\">36</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Medicina de Urgencia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-37\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-37\">37</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Nefrología Adulto</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-38\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-38\">38</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Nefrología Pediátrico</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-39\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-39\">39</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Neonatología</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-40\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-40\">40</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Neurocirugía</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-41\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-41\">41</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Neurología Adulto</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-42\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-42\">42</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Neurología Pediátrica</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-43\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-43\">43</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Obstetricia y Ginecología</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-44\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-44\">44</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Oftalmología</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-45\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-45\">45</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Oncología Médica</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-46\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-46\">46</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Otorrinolaringología</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-47\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-47\">47</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Pediatría</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-48\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-48\">48</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Psiquiatría Adulto</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-49\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-49\">49</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Psiquiatría Pediátrica y de la Adolescencia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-50\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-50\">50</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Radioterapia Oncológica</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-51\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-51\">51</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Reumatología</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-52\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-52\">52</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Salud Pública</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-53\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-53\">53</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Traumatología y Ortopedia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-54\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-54\">54</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Urología</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-55\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-55\">55</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Cardiología Pediátrica</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-56\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-56\">56</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Cirugía Digestiva</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-57\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-57\">57</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Cirugía Plástica y Reparadora Pediátrica</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-58\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-58\">58</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Ginecología</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-59\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-59\">59</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Hemato-Oncología Pediátrica</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-60\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-60\">60</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Infectología Pediátrica</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-61\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-61\">61</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Medicina Familiar del Niño</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-62\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-62\">62</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Medicina Física y Rehabilitación Pediátrica (Fisiatría Pediátrica)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-63\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-63\">63</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Nutriólogo</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-64\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-64\">64</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Nutriólogo Pediátrico</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-65\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-65\">65</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Reumatología Pediátrica</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-66\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-66\">66</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Obstetricia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-67\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-67\">67</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Traumatología y Ortopedia Pediátrica</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSEspecialidadesDeisCL-68\"> </a>\u00a0\u00a0<a href=\"https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html#CSEspecialidadesDeisCL-68\">68</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</td><td>Urología Pediátrica</td></tr></table></div>"
+      },
+      "url" : "http://agenda.cl/ValueSet/VSEspecialidadesDeisCL",
+      "version" : "0.1.0",
+      "name" : "VSEspecialidadesDeisCL",
+      "title" : "VS Códigos de Especialidades",
+      "status" : "active",
+      "experimental" : false,
+      "date" : "2024-06-11T20:58:46-04:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:90115dc4-d97c-44d1-810e-7a08e2cb770b",
+        "timestamp" : "2024-06-11T21:00:17-04:00",
+        "total" : 68,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL|1.8.5"
+        }],
+        "contains" : [{
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "01",
+          "display" : "Anatomía Patológica"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "02",
+          "display" : "Anestesiología"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "03",
+          "display" : "Cardiología"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "04",
+          "display" : "Cirugía General"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "05",
+          "display" : "Cirugía de Cabeza, Cuello y Maxilofacial"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "06",
+          "display" : "Cirugía Cardiovascular"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "07",
+          "display" : "Cirugía  de Tórax"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "08",
+          "display" : "Cirugía Plástica y Reparadora"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "09",
+          "display" : "Cirugía Pediátrica"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "10",
+          "display" : "Cirugía Vascular Periférica"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "11",
+          "display" : "Coloproctología"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "12",
+          "display" : "Dermatología"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "13",
+          "display" : "Diabetología"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "14",
+          "display" : "Endocrinología Adulto"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "15",
+          "display" : "Endocrinología Pediatrica"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "16",
+          "display" : "Enfermedades Respiratorias del Adulto (Broncopulmonar)"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "17",
+          "display" : "Enfermedades Respiratorias Pediátricas(Broncopulmonar Pediátrico)"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "18",
+          "display" : "Gastroenterología Adulto"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "19",
+          "display" : "Gastroenterología Pediátrica"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "20",
+          "display" : "Genética Clínica"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "21",
+          "display" : "Geriatría"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "22",
+          "display" : "Ginecología Pediátrica y de la Adolescencia"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "23",
+          "display" : "Hematología"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "24",
+          "display" : "Imagenología"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "25",
+          "display" : "Infectología"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "26",
+          "display" : "Inmunología"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "27",
+          "display" : "Laboratorio Clínico"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "28",
+          "display" : "Medicina Familiar"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "29",
+          "display" : "Medicina Física y Rehabilitación (Fisiatria Adulto)"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "30",
+          "display" : "Medicina Interna"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "31",
+          "display" : "Medicina Intensiva Adulto"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "32",
+          "display" : "Medicina Intensiva Pediátrica"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "33",
+          "display" : "Medicina Legal"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "34",
+          "display" : "Medicina Materno Infantil"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "35",
+          "display" : "Medicina Nuclear"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "36",
+          "display" : "Medicina de Urgencia"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "37",
+          "display" : "Nefrología Adulto"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "38",
+          "display" : "Nefrología Pediátrico"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "39",
+          "display" : "Neonatología"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "40",
+          "display" : "Neurocirugía"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "41",
+          "display" : "Neurología Adulto"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "42",
+          "display" : "Neurología Pediátrica"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "43",
+          "display" : "Obstetricia y Ginecología"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "44",
+          "display" : "Oftalmología"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "45",
+          "display" : "Oncología Médica"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "46",
+          "display" : "Otorrinolaringología"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "47",
+          "display" : "Pediatría"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "48",
+          "display" : "Psiquiatría Adulto"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "49",
+          "display" : "Psiquiatría Pediátrica y de la Adolescencia"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "50",
+          "display" : "Radioterapia Oncológica"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "51",
+          "display" : "Reumatología"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "52",
+          "display" : "Salud Pública"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "53",
+          "display" : "Traumatología y Ortopedia"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "54",
+          "display" : "Urología"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "55",
+          "display" : "Cardiología Pediátrica"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "56",
+          "display" : "Cirugía Digestiva"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "57",
+          "display" : "Cirugía Plástica y Reparadora Pediátrica"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "58",
+          "display" : "Ginecología"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "59",
+          "display" : "Hemato-Oncología Pediátrica"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "60",
+          "display" : "Infectología Pediátrica"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "61",
+          "display" : "Medicina Familiar del Niño"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "62",
+          "display" : "Medicina Física y Rehabilitación Pediátrica (Fisiatría Pediátrica)"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "63",
+          "display" : "Nutriólogo"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "64",
+          "display" : "Nutriólogo Pediátrico"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "65",
+          "display" : "Reumatología Pediátrica"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "66",
+          "display" : "Obstetricia"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "67",
+          "display" : "Traumatología y Ortopedia Pediátrica"
+        },
+        {
+          "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+          "code" : "68",
+          "display" : "Urología Pediátrica"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://agenda.cl/ValueSet/VSPrestaciones",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-CSPrestaciones.html\">codesystem CS Prestaciones v0.1.0 (CodeSystem)</a></p><p>This value set contains 118 concepts.</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-1\">1</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>OTRAS CONSULTAS (ABREVIADAS)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-2\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-2\">2</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>APLICACIÓN DE SELLANTES</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-3\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-3\">3</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>APLICACIÓN DE TEPSI</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-4\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-4\">4</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>APLICACIÓN EEDP</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-5\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-5\">5</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>ATENCIÓN DE PODOLOGIA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-6\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-6\">6</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>ATENCIÓN EN SALA DE ESTIMULACIÓN</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-7\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-7\">7</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>ATENCIÓN FARMACEÚTICA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-8\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-8\">8</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>ATENCIÓN POR SALUD DIGITAL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-9\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-9\">9</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>ATENCIÓN PROFESIONAL POR VIDEOLLAMADA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-10\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-10\">10</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>CLINICA O CONSULTA DE LACTANCIA MATERNA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-11\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-11\">11</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>CONSEJERIA FAMILIAR</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-12\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-12\">12</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>CONSEJERIA INDIVIDUAL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-13\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-13\">13</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>CONSEJERIA LACTANCIA MATERNA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-14\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-14\">14</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>CONSULTA ALTO RIESGO OBSTÉTRICO</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-15\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-15\">15</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>CONSULTA CIRUGIA MENOR (PROCEDIMIENTO)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-16\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-16\">16</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>CONSULTA DE ENFERMERIA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-17\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-17\">17</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>CONSULTA DE ESPECIALIDAD (ODONTÓLOGO, OTORRINO, OFTALMOLOGO, OTROS)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-18\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-18\">18</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>CONSULTA DE MEDICINA INDÍGENA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-19\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-19\">19</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>CONSULTA DE MORBILIDAD</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-20\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-20\">20</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>CONSULTA DE TERAPEUTA OCUPACIONAL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-21\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-21\">21</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>CONSULTA DE URGENCIA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-22\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-22\">22</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>CONSULTA FONOAUDIOLOGIA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-23\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-23\">23</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>CONSULTA FONOAUDIOLÓGICA DE REHABILITACIÓN AUDITIVA GRUPAL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-24\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-24\">24</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>CONSULTA FONOAUDIOLÓGICA DE REHABILITACIÓN AUDITIVA INDIVIDUAL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-25\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-25\">25</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>CONSULTA GINECOLÓGICA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-26\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-26\">26</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>CONSULTA INTEGRAL TMO</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-27\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-27\">27</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>CONSULTA MATRON/A</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-28\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-28\">28</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>CONSULTA NUTRICIONAL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-29\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-29\">29</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>CONSULTA ODONTOLOGICA MORBILIDAD</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-30\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-30\">30</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>CONSULTA ODONTOLOGICA TRATAMIENTO</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-31\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-31\">31</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>CONSULTA PACIENTE AGUDO ERA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-32\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-32\">32</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>CONSULTA PACIENTE AGUDO IRA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-33\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-33\">33</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>CONSULTA PREVIA O POSTERIOR A CIRUGÍA MENOR</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-34\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-34\">34</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>CONSULTA PSICOLOGÍCA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-35\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-35\">35</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>CONSULTA REHABILITACION</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-36\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-36\">36</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>CONSULTA SOCIAL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-37\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-37\">37</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>CONSULTA TMO OTORRINO</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-38\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-38\">38</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>CONSULTA VICIO DE REFRACCIÓN</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-39\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-39\">39</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>CONSULTORÍA DE SALUD MENTAL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-40\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-40\">40</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>CONTACTO DE PACIENTE POR VÍA TELEFÓNICA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-41\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-41\">41</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>CONTROL CERO</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-42\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-42\">42</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>CONTROL CLIMATERIO</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-43\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-43\">43</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>CONTROL CRONICO</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-44\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-44\">44</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>CONTROL CRONICO ERA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-45\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-45\">45</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>CONTROL CRONICO IRA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-46\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-46\">46</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>CONTROL DE SALUD INTEGRAL DEL ADOLESCENTE</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-47\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-47\">47</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>CONTROL DE SALUD MENTAL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-48\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-48\">48</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>CONTROL DE SEGUIMIENTO EMPAM</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-49\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-49\">49</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>CONTROL DIADA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-50\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-50\">50</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>CONTROL GINECOLOGICO</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-51\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-51\">51</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>CONTROL INTEGRAL MULTIMORBILIDAD</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-52\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-52\">52</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>CONTROL NIÑO SANO</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-53\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-53\">53</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>CONTROL PACIENTE AGUDO ERA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-54\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-54\">54</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>CONTROL PACIENTE AGUDO IRA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-55\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-55\">55</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>CONTROL PRECONCEPCIONAL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-56\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-56\">56</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>CONTROL PRENATAL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-57\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-57\">57</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>CONTROL PUERPERA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-58\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-58\">58</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>CONTROL REGULACIÓN FERTILIDAD</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-59\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-59\">59</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>CURACIÓN AVANZADA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-60\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-60\">60</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>CURACIONES SIMPLES</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-61\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-61\">61</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>EDUCACIÓN FARMACÉUTICA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-62\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-62\">62</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>EDUCACIÓN GRUPAL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-63\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-63\">63</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>EDUCACION INDIVIDUAL SALUD CARDIOVASCULAR</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-64\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-64\">64</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>ELABORACIÓN DE INFORMES A TRIBUNALES</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-65\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-65\">65</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>ENTREVISTA FAMILIAR (Aplicación Tarjetón Familiar)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-66\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-66\">66</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>ESPIROMETRIA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-67\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-67\">67</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>ESTUDIOS DE FAMILIA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-68\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-68\">68</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>EVALUACIÓN DEL PIE DIABÉTICO</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-69\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-69\">69</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>EVALUACION DISCAPACIDAD (IVADEC)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-70\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-70\">70</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>EVALUACIÓN INICIAL DE REHABILITACIÓN</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-71\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-71\">71</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>EVALUACION INTERMEDIA (REHABILITACIÓN)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-72\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-72\">72</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>EXAMEN MEDICINA PREVENTIVA ADULTO (EMPA)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-73\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-73\">73</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>FLUORACIÓN TOPICA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-74\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-74\">74</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>FLUORACIÓN TOPICA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-75\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-75\">75</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>INGRESO A SALA DE ESTIMULACIÓN</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-76\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-76\">76</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>INGRESO CLIMATERIO</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-77\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-77\">77</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>INGRESO CRONICO</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-78\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-78\">78</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>INGRESO ERA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-79\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-79\">79</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>INGRESO FONOAUDIOLOGÍA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-80\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-80\">80</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>INGRESO IRA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-81\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-81\">81</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>INGRESO MULTIMORBILIDAD</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-82\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-82\">82</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>INGRESO PMAMA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-83\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-83\">83</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>INGRESO PRENATAL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-84\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-84\">84</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>INGRESO PROGRAMA CERO</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-85\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-85\">85</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>INGRESO PROGRAMA SALUD MENTAL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-86\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-86\">86</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>INGRESO REGULACIÓN FERTILIDAD</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-87\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-87\">87</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>INTERVENCIÓN EN CRISIS</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-88\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-88\">88</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>INTERVENCION PSICOSOCIAL DE GRUPOS</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-89\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-89\">89</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>INTERVENCION PSICOSOCIAL GRUPAL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-90\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-90\">90</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>OTRAS CONSULTAS TMO</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-91\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-91\">91</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>PAP</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-92\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-92\">92</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>PESQUISA HTA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-93\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-93\">93</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>PROCEDIMIENTOS</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-94\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-94\">94</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>PROGRAMA GES ODONTOLOGICO</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-95\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-95\">95</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>PROGRAMA MEJORAMIENTO DEL ACCESO A LA ATENCIÓN ODONTOLÓGICA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-96\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-96\">96</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>PROGRAMA ODONTOLÓGICO INTEGRAL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-97\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-97\">97</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>PULIDO CORONARIO Y DESTARTRAJE SUPRAGINGIVAL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-98\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-98\">98</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>REALIZACIÓN EMPAM</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-99\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-99\">99</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>SEGUIMIENTO DE CASOS</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-100\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-100\">100</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>SEGUIMIENTO DE TEPSI</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-101\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-101\">101</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>SEGUMIENTO A DISTANCIA MULTIMORBILIDAD</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-102\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-102\">102</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>SESION DE REHABILITACION INTEGRAL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-103\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-103\">103</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>SESION DE REHABILITACION PULMONAR</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-104\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-104\">104</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>TALLER EN EDUCACIÓN ESPECIAL EN ADULTO MAYOR</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-105\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-105\">105</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>TALLER GRUPAL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-106\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-106\">106</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>TALLER GRUPAL PMAMA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-107\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-107\">107</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>TAMIZAJE PARA EVALUAR RIESGO DE CONSUMO DE ALCOHOL, TABACO Y OTRAS DROGAS</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-108\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-108\">108</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>TELECLIMATERIO</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-109\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-109\">109</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>TEST DE MARCHA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-110\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-110\">110</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>TEST DE PROVOCACIÓN CON EJERCICIO</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-111\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-111\">111</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>TOMA DE ECOGRAFIA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-112\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-112\">112</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>TOMA DE ELECTROCARDIOGRAMA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-113\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-113\">113</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>TOMA DE ESPIROMETRIA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-114\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-114\">114</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>TOMA DE MAMOGRAFIA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-115\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-115\">115</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>TOMA DE MUESTRAS</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-116\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-116\">116</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>TOMA DE RADIOGRAFIA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-117\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-117\">117</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>VISITA DOMICILIARIA INTEGRAL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrestaciones-118\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrestaciones.html#CSPrestaciones-118\">118</a></td><td>http://agenda.cl/CodeSystem/CSPrestaciones</td><td>VISITAS CON FINES DE TRATAMIENTOS Y/O PROCEDIMIENTOS EN DOMICILIO</td></tr></table></div>"
+      },
+      "url" : "http://agenda.cl/ValueSet/VSPrestaciones",
+      "version" : "0.1.0",
+      "name" : "VSPrestaciones",
+      "title" : "VS Prestaciones",
+      "status" : "active",
+      "experimental" : false,
+      "date" : "2024-06-11T20:58:46-04:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:92c63067-bd1c-419e-9ff9-fdafa7b49a39",
+        "timestamp" : "2024-06-11T21:00:17-04:00",
+        "total" : 118,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://agenda.cl/CodeSystem/CSPrestaciones|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "1",
+          "display" : "OTRAS CONSULTAS (ABREVIADAS)"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "2",
+          "display" : "APLICACIÓN DE SELLANTES"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "3",
+          "display" : "APLICACIÓN DE TEPSI"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "4",
+          "display" : "APLICACIÓN EEDP"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "5",
+          "display" : "ATENCIÓN DE PODOLOGIA"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "6",
+          "display" : "ATENCIÓN EN SALA DE ESTIMULACIÓN"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "7",
+          "display" : "ATENCIÓN FARMACEÚTICA"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "8",
+          "display" : "ATENCIÓN POR SALUD DIGITAL"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "9",
+          "display" : "ATENCIÓN PROFESIONAL POR VIDEOLLAMADA"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "10",
+          "display" : "CLINICA O CONSULTA DE LACTANCIA MATERNA"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "11",
+          "display" : "CONSEJERIA FAMILIAR"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "12",
+          "display" : "CONSEJERIA INDIVIDUAL"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "13",
+          "display" : "CONSEJERIA LACTANCIA MATERNA"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "14",
+          "display" : "CONSULTA ALTO RIESGO OBSTÉTRICO"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "15",
+          "display" : "CONSULTA CIRUGIA MENOR (PROCEDIMIENTO)"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "16",
+          "display" : "CONSULTA DE ENFERMERIA"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "17",
+          "display" : "CONSULTA DE ESPECIALIDAD (ODONTÓLOGO, OTORRINO, OFTALMOLOGO, OTROS)"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "18",
+          "display" : "CONSULTA DE MEDICINA INDÍGENA"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "19",
+          "display" : "CONSULTA DE MORBILIDAD"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "20",
+          "display" : "CONSULTA DE TERAPEUTA OCUPACIONAL"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "21",
+          "display" : "CONSULTA DE URGENCIA"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "22",
+          "display" : "CONSULTA FONOAUDIOLOGIA"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "23",
+          "display" : "CONSULTA FONOAUDIOLÓGICA DE REHABILITACIÓN AUDITIVA GRUPAL"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "24",
+          "display" : "CONSULTA FONOAUDIOLÓGICA DE REHABILITACIÓN AUDITIVA INDIVIDUAL"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "25",
+          "display" : "CONSULTA GINECOLÓGICA"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "26",
+          "display" : "CONSULTA INTEGRAL TMO"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "27",
+          "display" : "CONSULTA MATRON/A"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "28",
+          "display" : "CONSULTA NUTRICIONAL"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "29",
+          "display" : "CONSULTA ODONTOLOGICA MORBILIDAD"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "30",
+          "display" : "CONSULTA ODONTOLOGICA TRATAMIENTO"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "31",
+          "display" : "CONSULTA PACIENTE AGUDO ERA"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "32",
+          "display" : "CONSULTA PACIENTE AGUDO IRA"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "33",
+          "display" : "CONSULTA PREVIA O POSTERIOR A CIRUGÍA MENOR"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "34",
+          "display" : "CONSULTA PSICOLOGÍCA"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "35",
+          "display" : "CONSULTA REHABILITACION"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "36",
+          "display" : "CONSULTA SOCIAL"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "37",
+          "display" : "CONSULTA TMO OTORRINO"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "38",
+          "display" : "CONSULTA VICIO DE REFRACCIÓN"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "39",
+          "display" : "CONSULTORÍA DE SALUD MENTAL"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "40",
+          "display" : "CONTACTO DE PACIENTE POR VÍA TELEFÓNICA"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "41",
+          "display" : "CONTROL CERO"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "42",
+          "display" : "CONTROL CLIMATERIO"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "43",
+          "display" : "CONTROL CRONICO"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "44",
+          "display" : "CONTROL CRONICO ERA"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "45",
+          "display" : "CONTROL CRONICO IRA"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "46",
+          "display" : "CONTROL DE SALUD INTEGRAL DEL ADOLESCENTE"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "47",
+          "display" : "CONTROL DE SALUD MENTAL"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "48",
+          "display" : "CONTROL DE SEGUIMIENTO EMPAM"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "49",
+          "display" : "CONTROL DIADA"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "50",
+          "display" : "CONTROL GINECOLOGICO"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "51",
+          "display" : "CONTROL INTEGRAL MULTIMORBILIDAD"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "52",
+          "display" : "CONTROL NIÑO SANO"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "53",
+          "display" : "CONTROL PACIENTE AGUDO ERA"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "54",
+          "display" : "CONTROL PACIENTE AGUDO IRA"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "55",
+          "display" : "CONTROL PRECONCEPCIONAL"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "56",
+          "display" : "CONTROL PRENATAL"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "57",
+          "display" : "CONTROL PUERPERA"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "58",
+          "display" : "CONTROL REGULACIÓN FERTILIDAD"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "59",
+          "display" : "CURACIÓN AVANZADA"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "60",
+          "display" : "CURACIONES SIMPLES"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "61",
+          "display" : "EDUCACIÓN FARMACÉUTICA"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "62",
+          "display" : "EDUCACIÓN GRUPAL"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "63",
+          "display" : "EDUCACION INDIVIDUAL SALUD CARDIOVASCULAR"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "64",
+          "display" : "ELABORACIÓN DE INFORMES A TRIBUNALES"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "65",
+          "display" : "ENTREVISTA FAMILIAR (Aplicación Tarjetón Familiar)"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "66",
+          "display" : "ESPIROMETRIA"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "67",
+          "display" : "ESTUDIOS DE FAMILIA"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "68",
+          "display" : "EVALUACIÓN DEL PIE DIABÉTICO"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "69",
+          "display" : "EVALUACION DISCAPACIDAD (IVADEC)"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "70",
+          "display" : "EVALUACIÓN INICIAL DE REHABILITACIÓN"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "71",
+          "display" : "EVALUACION INTERMEDIA (REHABILITACIÓN)"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "72",
+          "display" : "EXAMEN MEDICINA PREVENTIVA ADULTO (EMPA)"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "73",
+          "display" : "FLUORACIÓN TOPICA"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "74",
+          "display" : "FLUORACIÓN TOPICA"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "75",
+          "display" : "INGRESO A SALA DE ESTIMULACIÓN"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "76",
+          "display" : "INGRESO CLIMATERIO"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "77",
+          "display" : "INGRESO CRONICO"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "78",
+          "display" : "INGRESO ERA"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "79",
+          "display" : "INGRESO FONOAUDIOLOGÍA"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "80",
+          "display" : "INGRESO IRA"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "81",
+          "display" : "INGRESO MULTIMORBILIDAD"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "82",
+          "display" : "INGRESO PMAMA"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "83",
+          "display" : "INGRESO PRENATAL"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "84",
+          "display" : "INGRESO PROGRAMA CERO"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "85",
+          "display" : "INGRESO PROGRAMA SALUD MENTAL"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "86",
+          "display" : "INGRESO REGULACIÓN FERTILIDAD"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "87",
+          "display" : "INTERVENCIÓN EN CRISIS"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "88",
+          "display" : "INTERVENCION PSICOSOCIAL DE GRUPOS"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "89",
+          "display" : "INTERVENCION PSICOSOCIAL GRUPAL"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "90",
+          "display" : "OTRAS CONSULTAS TMO"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "91",
+          "display" : "PAP"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "92",
+          "display" : "PESQUISA HTA"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "93",
+          "display" : "PROCEDIMIENTOS"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "94",
+          "display" : "PROGRAMA GES ODONTOLOGICO"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "95",
+          "display" : "PROGRAMA MEJORAMIENTO DEL ACCESO A LA ATENCIÓN ODONTOLÓGICA"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "96",
+          "display" : "PROGRAMA ODONTOLÓGICO INTEGRAL"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "97",
+          "display" : "PULIDO CORONARIO Y DESTARTRAJE SUPRAGINGIVAL"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "98",
+          "display" : "REALIZACIÓN EMPAM"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "99",
+          "display" : "SEGUIMIENTO DE CASOS"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "100",
+          "display" : "SEGUIMIENTO DE TEPSI"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "101",
+          "display" : "SEGUMIENTO A DISTANCIA MULTIMORBILIDAD"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "102",
+          "display" : "SESION DE REHABILITACION INTEGRAL"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "103",
+          "display" : "SESION DE REHABILITACION PULMONAR"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "104",
+          "display" : "TALLER EN EDUCACIÓN ESPECIAL EN ADULTO MAYOR"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "105",
+          "display" : "TALLER GRUPAL"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "106",
+          "display" : "TALLER GRUPAL PMAMA"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "107",
+          "display" : "TAMIZAJE PARA EVALUAR RIESGO DE CONSUMO DE ALCOHOL, TABACO Y OTRAS DROGAS"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "108",
+          "display" : "TELECLIMATERIO"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "109",
+          "display" : "TEST DE MARCHA"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "110",
+          "display" : "TEST DE PROVOCACIÓN CON EJERCICIO"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "111",
+          "display" : "TOMA DE ECOGRAFIA"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "112",
+          "display" : "TOMA DE ELECTROCARDIOGRAMA"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "113",
+          "display" : "TOMA DE ESPIROMETRIA"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "114",
+          "display" : "TOMA DE MAMOGRAFIA"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "115",
+          "display" : "TOMA DE MUESTRAS"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "116",
+          "display" : "TOMA DE RADIOGRAFIA"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "117",
+          "display" : "VISITA DOMICILIARIA INTEGRAL"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+          "code" : "118",
+          "display" : "VISITAS CON FINES DE TRATAMIENTOS Y/O PROCEDIMIENTOS EN DOMICILIO"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://agenda.cl/ValueSet/VSPrevision",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-CSPrevision.html\">codesystem CS Prevision v0.1.0 (CodeSystem)</a></p><p>This value set contains 7 concepts.</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrevision-01\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrevision.html#CSPrevision-01\">01</a></td><td>http://agenda.cl/CodeSystem/CSPrevision</td><td>FONASA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrevision-02\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrevision.html#CSPrevision-02\">02</a></td><td>http://agenda.cl/CodeSystem/CSPrevision</td><td>ISAPRE</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrevision-03\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrevision.html#CSPrevision-03\">03</a></td><td>http://agenda.cl/CodeSystem/CSPrevision</td><td>CAPREDENA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrevision-04\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrevision.html#CSPrevision-04\">04</a></td><td>http://agenda.cl/CodeSystem/CSPrevision</td><td>DIPRECA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrevision-05\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrevision.html#CSPrevision-05\">05</a></td><td>http://agenda.cl/CodeSystem/CSPrevision</td><td>SISA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrevision-96\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrevision.html#CSPrevision-96\">96</a></td><td>http://agenda.cl/CodeSystem/CSPrevision</td><td>NINGUNA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSPrevision-99\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSPrevision.html#CSPrevision-99\">99</a></td><td>http://agenda.cl/CodeSystem/CSPrevision</td><td>DESCONOCIDO</td></tr></table></div>"
+      },
+      "url" : "http://agenda.cl/ValueSet/VSPrevision",
+      "version" : "0.1.0",
+      "name" : "VSPrevision",
+      "title" : "VS Prevision",
+      "status" : "active",
+      "experimental" : false,
+      "date" : "2024-06-11T20:58:46-04:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:7e7c8263-11bc-4904-bc3d-4a0f72894bd3",
+        "timestamp" : "2024-06-11T21:00:18-04:00",
+        "total" : 7,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://agenda.cl/CodeSystem/CSPrevision|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://agenda.cl/CodeSystem/CSPrevision",
+          "code" : "01",
+          "display" : "FONASA"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrevision",
+          "code" : "02",
+          "display" : "ISAPRE"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrevision",
+          "code" : "03",
+          "display" : "CAPREDENA"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrevision",
+          "code" : "04",
+          "display" : "DIPRECA"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrevision",
+          "code" : "05",
+          "display" : "SISA"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrevision",
+          "code" : "96",
+          "display" : "NINGUNA"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSPrevision",
+          "code" : "99",
+          "display" : "DESCONOCIDO"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://agenda.cl/ValueSet/VSServicios",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-CSServicios.html\">codesystem CSServicios v0.1.0 (CodeSystem)</a></p><p>This value set contains 2 concepts.</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSServicios-1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSServicios.html#CSServicios-1\">1</a></td><td>http://agenda.cl/CodeSystem/CSServicios</td><td>Adopción/Atención permanente Información/Apoyo</td><td><div><p>Adopción y atención permanente información/apoyo</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSServicios-2\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSServicios.html#CSServicios-2\">2</a></td><td>http://agenda.cl/CodeSystem/CSServicios</td><td>Evaluación de cuidados para personas mayores</td><td><div><p>Evaluación de cuidados para personas mayores</p>\n</div></td></tr></table></div>"
+      },
+      "url" : "http://agenda.cl/ValueSet/VSServicios",
+      "version" : "0.1.0",
+      "name" : "VSServicios",
+      "title" : "VS SERVICIOS",
+      "status" : "active",
+      "experimental" : false,
+      "date" : "2024-06-11T20:58:46-04:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:68919048-8e8c-494c-a4c9-873a8c47968b",
+        "timestamp" : "2024-06-11T21:00:18-04:00",
+        "total" : 2,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://agenda.cl/CodeSystem/CSServicios|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://agenda.cl/CodeSystem/CSServicios",
+          "code" : "1",
+          "display" : "Adopción/Atención permanente Información/Apoyo"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSServicios",
+          "code" : "2",
+          "display" : "Evaluación de cuidados para personas mayores"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://agenda.cl/ValueSet/VSSintomasEspeciales",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-CSSintomasEspeciales.html\">codesystem CS Sintomas Especiales v0.1.0 (CodeSystem)</a></p><p>This value set contains 20 concepts.</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSSintomasEspeciales-01\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSSintomasEspeciales.html#CSSintomasEspeciales-01\">01</a></td><td>http://agenda.cl/CodeSystem/CSSintomasEspeciales</td><td>Fiebre alta persistente</td><td><div><p>Temperatura corporal elevada que no cede con medicación o que dura más de unos días podría indicar una infección que requiere atención médica.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSSintomasEspeciales-02\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSSintomasEspeciales.html#CSSintomasEspeciales-02\">02</a></td><td>http://agenda.cl/CodeSystem/CSSintomasEspeciales</td><td>Dolor intenso o persistente</td><td><div><p>Dolores que no se alivian o que interfieren significativamente con las actividades diarias pueden necesitar evaluación médica.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSSintomasEspeciales-03\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSSintomasEspeciales.html#CSSintomasEspeciales-03\">03</a></td><td>http://agenda.cl/CodeSystem/CSSintomasEspeciales</td><td>Dificultad para respirar</td><td><div><p>Respirar con dificultad, sibilancias o sensación de opresión en el pecho.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSSintomasEspeciales-04\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSSintomasEspeciales.html#CSSintomasEspeciales-04\">04</a></td><td>http://agenda.cl/CodeSystem/CSSintomasEspeciales</td><td>Sangrado nasal</td><td><div><p>Descripcion de Desconosido</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSSintomasEspeciales-05\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSSintomasEspeciales.html#CSSintomasEspeciales-05\">05</a></td><td>http://agenda.cl/CodeSystem/CSSintomasEspeciales</td><td>Pérdida de peso inexplicable</td><td><div><p>Una disminución significativa del peso sin razón aparente puede ser indicativo de condiciones subyacentes.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSSintomasEspeciales-06\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSSintomasEspeciales.html#CSSintomasEspeciales-06\">06</a></td><td>http://agenda.cl/CodeSystem/CSSintomasEspeciales</td><td>Cambios en la visión</td><td><div><p>Dificultades para ver, visión borrosa o pérdida de la visión pueden señalar problemas oculares serios.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSSintomasEspeciales-07\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSSintomasEspeciales.html#CSSintomasEspeciales-07\">07</a></td><td>http://agenda.cl/CodeSystem/CSSintomasEspeciales</td><td>Erupciones cutáneas o cambios en la piel</td><td><div><p>La aparición de erupciones, cambios en lunares existentes o nuevas lesiones en la piel pueden requerir evaluación.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSSintomasEspeciales-08\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSSintomasEspeciales.html#CSSintomasEspeciales-08\">08</a></td><td>http://agenda.cl/CodeSystem/CSSintomasEspeciales</td><td>Fatiga</td><td><div><p>Sentirse constantemente cansado o agotado, incluso después de descansar adecuadamente.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSSintomasEspeciales-09\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSSintomasEspeciales.html#CSSintomasEspeciales-09\">09</a></td><td>http://agenda.cl/CodeSystem/CSSintomasEspeciales</td><td>Síntomas de deshidratación</td><td><div><p>Sensación de sed intensa, orina oscura o disminución de la frecuencia urinaria.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSSintomasEspeciales-10\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSSintomasEspeciales.html#CSSintomasEspeciales-10\">10</a></td><td>http://agenda.cl/CodeSystem/CSSintomasEspeciales</td><td>Mareos o desmayos</td><td><div><p>Episodios de mareo o pérdida de conciencia pueden ser signos de problemas cardíacos u otros.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSSintomasEspeciales-11\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSSintomasEspeciales.html#CSSintomasEspeciales-11\">11</a></td><td>http://agenda.cl/CodeSystem/CSSintomasEspeciales</td><td>Problemas digestivos persistentes</td><td><div><p>Dificultades como diarrea crónica, estreñimiento o dolor abdominal.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSSintomasEspeciales-12\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSSintomasEspeciales.html#CSSintomasEspeciales-12\">12</a></td><td>http://agenda.cl/CodeSystem/CSSintomasEspeciales</td><td>Tos persistente o con sangre</td><td><div><p>Una tos que no mejora o que viene acompañada de sangre puede ser señal de una infección grave.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSSintomasEspeciales-13\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSSintomasEspeciales.html#CSSintomasEspeciales-13\">13</a></td><td>http://agenda.cl/CodeSystem/CSSintomasEspeciales</td><td>Dolor o ardor al orinar</td><td><div><p>Estos síntomas pueden indicar una infección del tracto urinario o problemas renales.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSSintomasEspeciales-14\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSSintomasEspeciales.html#CSSintomasEspeciales-14\">14</a></td><td>http://agenda.cl/CodeSystem/CSSintomasEspeciales</td><td>Alteraciones en el ciclo menstrual</td><td><div><p>Cambios significativos en la regularidad, duración o flujo menstrual.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSSintomasEspeciales-15\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSSintomasEspeciales.html#CSSintomasEspeciales-15\">15</a></td><td>http://agenda.cl/CodeSystem/CSSintomasEspeciales</td><td>Hinchazón o edema</td><td><div><p>Acumulación anormal de líquido en tejidos del cuerpo, especialmente en piernas o tobillos.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSSintomasEspeciales-16\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSSintomasEspeciales.html#CSSintomasEspeciales-16\">16</a></td><td>http://agenda.cl/CodeSystem/CSSintomasEspeciales</td><td>Dolor torácico</td><td><div><p>Dolor en el área del pecho que puede ser indicativo de problemas cardíacos.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSSintomasEspeciales-17\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSSintomasEspeciales.html#CSSintomasEspeciales-17\">17</a></td><td>http://agenda.cl/CodeSystem/CSSintomasEspeciales</td><td>Palpitaciones cardíacas</td><td><div><p>Sensación de latidos cardíacos fuertes, rápidos o irregulares.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSSintomasEspeciales-18\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSSintomasEspeciales.html#CSSintomasEspeciales-18\">18</a></td><td>http://agenda.cl/CodeSystem/CSSintomasEspeciales</td><td>Fiebre baja persistente</td><td><div><p>Temperatura corporal ligeramente elevada durante un período prolongado.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSSintomasEspeciales-19\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSSintomasEspeciales.html#CSSintomasEspeciales-19\">19</a></td><td>http://agenda.cl/CodeSystem/CSSintomasEspeciales</td><td>Cambios en el estado mental</td><td><div><p>Confusión, desorientación o dificultades con la memoria o el pensamiento.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSSintomasEspeciales-20\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSSintomasEspeciales.html#CSSintomasEspeciales-20\">20</a></td><td>http://agenda.cl/CodeSystem/CSSintomasEspeciales</td><td>Dolor de cabeza severo o inusual</td><td><div><p>Cefaleas intensas o diferentes a las habituales que no mejoran con medicación.</p>\n</div></td></tr></table></div>"
+      },
+      "url" : "http://agenda.cl/ValueSet/VSSintomasEspeciales",
+      "version" : "0.1.0",
+      "name" : "VSSintomasEspeciales",
+      "title" : "VS Sintomas Especiales",
+      "status" : "active",
+      "experimental" : false,
+      "date" : "2024-06-11T20:58:46-04:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:0101b4e0-e6fa-4945-b94e-ad8f55fd2a6b",
+        "timestamp" : "2024-06-11T21:00:18-04:00",
+        "total" : 20,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://agenda.cl/CodeSystem/CSSintomasEspeciales|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://agenda.cl/CodeSystem/CSSintomasEspeciales",
+          "code" : "01",
+          "display" : "Fiebre alta persistente"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSSintomasEspeciales",
+          "code" : "02",
+          "display" : "Dolor intenso o persistente"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSSintomasEspeciales",
+          "code" : "03",
+          "display" : "Dificultad para respirar"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSSintomasEspeciales",
+          "code" : "04",
+          "display" : "Sangrado nasal"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSSintomasEspeciales",
+          "code" : "05",
+          "display" : "Pérdida de peso inexplicable"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSSintomasEspeciales",
+          "code" : "06",
+          "display" : "Cambios en la visión"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSSintomasEspeciales",
+          "code" : "07",
+          "display" : "Erupciones cutáneas o cambios en la piel"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSSintomasEspeciales",
+          "code" : "08",
+          "display" : "Fatiga"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSSintomasEspeciales",
+          "code" : "09",
+          "display" : "Síntomas de deshidratación"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSSintomasEspeciales",
+          "code" : "10",
+          "display" : "Mareos o desmayos"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSSintomasEspeciales",
+          "code" : "11",
+          "display" : "Problemas digestivos persistentes"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSSintomasEspeciales",
+          "code" : "12",
+          "display" : "Tos persistente o con sangre"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSSintomasEspeciales",
+          "code" : "13",
+          "display" : "Dolor o ardor al orinar"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSSintomasEspeciales",
+          "code" : "14",
+          "display" : "Alteraciones en el ciclo menstrual"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSSintomasEspeciales",
+          "code" : "15",
+          "display" : "Hinchazón o edema"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSSintomasEspeciales",
+          "code" : "16",
+          "display" : "Dolor torácico"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSSintomasEspeciales",
+          "code" : "17",
+          "display" : "Palpitaciones cardíacas"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSSintomasEspeciales",
+          "code" : "18",
+          "display" : "Fiebre baja persistente"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSSintomasEspeciales",
+          "code" : "19",
+          "display" : "Cambios en el estado mental"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSSintomasEspeciales",
+          "code" : "20",
+          "display" : "Dolor de cabeza severo o inusual"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://agenda.cl/ValueSet/VSUrgenciaPercibida",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-CSUrgenciaPercibida.html\">codesystem CS Urgencia Percibida v0.1.0 (CodeSystem)</a></p><p>This value set contains 5 concepts.</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSUrgenciaPercibida-01\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSUrgenciaPercibida.html#CSUrgenciaPercibida-01\">01</a></td><td>http://agenda.cl/CodeSystem/CSUrgenciaPercibida</td><td>No dolor</td><td><div><p>El paciente no presenta un dolor</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSUrgenciaPercibida-02\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSUrgenciaPercibida.html#CSUrgenciaPercibida-02\">02</a></td><td>http://agenda.cl/CodeSystem/CSUrgenciaPercibida</td><td>Leve</td><td><div><p>El paciente presenta un dolor leve</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSUrgenciaPercibida-03\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSUrgenciaPercibida.html#CSUrgenciaPercibida-03\">03</a></td><td>http://agenda.cl/CodeSystem/CSUrgenciaPercibida</td><td>Moderado</td><td><div><p>El paciente presenta un dolor moderado</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSUrgenciaPercibida-04\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSUrgenciaPercibida.html#CSUrgenciaPercibida-04\">04</a></td><td>http://agenda.cl/CodeSystem/CSUrgenciaPercibida</td><td>Severo</td><td><div><p>El paceinte presenta un dolor severo</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---agenda.cl-CodeSystem-CSUrgenciaPercibida-05\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSUrgenciaPercibida.html#CSUrgenciaPercibida-05\">05</a></td><td>http://agenda.cl/CodeSystem/CSUrgenciaPercibida</td><td>Insoportable</td><td><div><p>El paciente presenta un dolor insoportable</p>\n</div></td></tr></table></div>"
+      },
+      "url" : "http://agenda.cl/ValueSet/VSUrgenciaPercibida",
+      "version" : "0.1.0",
+      "name" : "VSUrgenciaPercibida",
+      "title" : "VS Urgencia Percibida",
+      "status" : "active",
+      "experimental" : false,
+      "date" : "2024-06-11T20:58:46-04:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:49fc72b2-db4a-465e-bb00-df9315914d21",
+        "timestamp" : "2024-06-11T21:00:18-04:00",
+        "total" : 5,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://agenda.cl/CodeSystem/CSUrgenciaPercibida|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://agenda.cl/CodeSystem/CSUrgenciaPercibida",
+          "code" : "01",
+          "display" : "No dolor"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSUrgenciaPercibida",
+          "code" : "02",
+          "display" : "Leve"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSUrgenciaPercibida",
+          "code" : "03",
+          "display" : "Moderado"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSUrgenciaPercibida",
+          "code" : "04",
+          "display" : "Severo"
+        },
+        {
+          "system" : "http://agenda.cl/CodeSystem/CSUrgenciaPercibida",
+          "code" : "05",
+          "display" : "Insoportable"
+        }]
+      }
+    }
+  }]
+}

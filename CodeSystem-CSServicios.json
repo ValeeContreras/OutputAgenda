@@ -1,0 +1,37 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "CSServicios",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This case-sensitive code system <code>http://agenda.cl/CodeSystem/CSServicios</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"CSServicios-1\"> </a></td><td>Adopción/Atención permanente Información/Apoyo</td><td>Adopción y atención permanente información/apoyo</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"CSServicios-2\"> </a></td><td>Evaluación de cuidados para personas mayores</td><td>Evaluación de cuidados para personas mayores</td></tr></table></div>"
+  },
+  "url" : "http://agenda.cl/CodeSystem/CSServicios",
+  "version" : "0.1.0",
+  "name" : "CSServicios",
+  "title" : "CSServicios",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2024-06-11T20:58:46-04:00",
+  "publisher" : "Valentina Contreras",
+  "contact" : [{
+    "name" : "Valentina Contreras",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Aca estan los codigos del servicio del prestador que dara la cita",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 2,
+  "concept" : [{
+    "code" : "1",
+    "display" : "Adopción/Atención permanente Información/Apoyo",
+    "definition" : "Adopción y atención permanente información/apoyo"
+  },
+  {
+    "code" : "2",
+    "display" : "Evaluación de cuidados para personas mayores",
+    "definition" : "Evaluación de cuidados para personas mayores"
+  }]
+}

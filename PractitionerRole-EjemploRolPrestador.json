@@ -1,0 +1,17 @@
+{
+  "resourceType" : "PractitionerRole",
+  "id" : "EjemploRolPrestador",
+  "meta" : {
+    "profile" : ["http://agenda.cl/StructureDefinition/RolPrestador"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: PractitionerRole</b><a name=\"EjemploRolPrestador\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PractitionerRole &quot;EjemploRolPrestador&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-RolPrestador.html\">Perfil del Rol del Prestador</a></p></div><p><b>organization</b>: <a href=\"Organization-EjemploOrganizacion.html\">Organization/EjemploOrganizacion</a> &quot;CESFAM Barón&quot;</p><p><b>healthcareService</b>: <a href=\"HealthcareService-EjemploServicioDeSalud.html\">HealthcareService/EjemploServicioDeSalud</a></p></div>"
+  },
+  "organization" : {
+    "reference" : "Organization/EjemploOrganizacion"
+  },
+  "healthcareService" : [{
+    "reference" : "HealthcareService/EjemploServicioDeSalud"
+  }]
+}

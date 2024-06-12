@@ -1,0 +1,7 @@
+URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
+http://agenda.cl/ValueSet/VSEspecialidadesDeisCL,0.1.0,active,,VSEspecialidadesDeisCL,VS Códigos de Especialidades,"Códigos de especialidades médicas descritas según DEIS",,"hl7.fhir.cl.clcore"
+http://agenda.cl/ValueSet/VSPrestaciones,0.1.0,active,,VSPrestaciones,VS Prestaciones,"Prestaciones",,"Internal"
+http://agenda.cl/ValueSet/VSPrevision,0.1.0,active,,VSPrevision,VS Prevision,"Previsión del paciente",,"Internal"
+http://agenda.cl/ValueSet/VSServicios,0.1.0,active,,VSServicios,VS SERVICIOS,"Servicio que dara el prestador",,"Internal"
+http://agenda.cl/ValueSet/VSSintomasEspeciales,0.1.0,active,,VSSintomasEspeciales,VS Sintomas Especiales,"Sintomas especiales del paciente",,"Internal"
+http://agenda.cl/ValueSet/VSUrgenciaPercibida,0.1.0,active,,VSUrgenciaPercibida,VS Urgencia Percibida,"Traigo los codigos de la urgencia percibida",,"Internal"

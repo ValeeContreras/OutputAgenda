@@ -1,0 +1,52 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "CSUrgenciaPercibida",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This case-sensitive code system <code>http://agenda.cl/CodeSystem/CSUrgenciaPercibida</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">01<a name=\"CSUrgenciaPercibida-01\"> </a></td><td>No dolor</td><td>El paciente no presenta un dolor</td></tr><tr><td style=\"white-space:nowrap\">02<a name=\"CSUrgenciaPercibida-02\"> </a></td><td>Leve</td><td>El paciente presenta un dolor leve</td></tr><tr><td style=\"white-space:nowrap\">03<a name=\"CSUrgenciaPercibida-03\"> </a></td><td>Moderado</td><td>El paciente presenta un dolor moderado</td></tr><tr><td style=\"white-space:nowrap\">04<a name=\"CSUrgenciaPercibida-04\"> </a></td><td>Severo</td><td>El paceinte presenta un dolor severo</td></tr><tr><td style=\"white-space:nowrap\">05<a name=\"CSUrgenciaPercibida-05\"> </a></td><td>Insoportable</td><td>El paciente presenta un dolor insoportable</td></tr></table></div>"
+  },
+  "url" : "http://agenda.cl/CodeSystem/CSUrgenciaPercibida",
+  "version" : "0.1.0",
+  "name" : "CSUrgenciaPercibida",
+  "title" : "CS Urgencia Percibida",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2024-06-11T20:58:46-04:00",
+  "publisher" : "Valentina Contreras",
+  "contact" : [{
+    "name" : "Valentina Contreras",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Codidos de la urgencia percibida segun el paciente.",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 5,
+  "concept" : [{
+    "code" : "01",
+    "display" : "No dolor",
+    "definition" : "El paciente no presenta un dolor"
+  },
+  {
+    "code" : "02",
+    "display" : "Leve",
+    "definition" : "El paciente presenta un dolor leve"
+  },
+  {
+    "code" : "03",
+    "display" : "Moderado",
+    "definition" : "El paciente presenta un dolor moderado"
+  },
+  {
+    "code" : "04",
+    "display" : "Severo",
+    "definition" : "El paceinte presenta un dolor severo"
+  },
+  {
+    "code" : "05",
+    "display" : "Insoportable",
+    "definition" : "El paciente presenta un dolor insoportable"
+  }]
+}

@@ -1,0 +1,10 @@
+URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
+http://agenda.cl/ValueSet/VSEspecialidadesDeisCL,0.1.0,active,,VSEspecialidadesDeisCL,VS Códigos de Especialidades,"Códigos de especialidades médicas descritas según DEIS",,"hl7.fhir.cl.clcore"
+http://agenda.cl/ValueSet/VSPrestaciones,0.1.0,active,,VSPrestaciones,VS Prestaciones,"Prestaciones","StructureDefinition/Prestaciones","Internal"
+http://agenda.cl/ValueSet/VSPrevision,0.1.0,active,,VSPrevision,VS Prevision,"Previsión del paciente","StructureDefinition/Prevision","Internal"
+http://agenda.cl/ValueSet/VSServicios,0.1.0,active,,VSServicios,VS SERVICIOS,"Servicio que dara el prestador","StructureDefinition/Servicios","Internal"
+http://agenda.cl/ValueSet/VSSintomasEspeciales,0.1.0,active,,VSSintomasEspeciales,VS Sintomas Especiales,"Sintomas especiales del paciente","StructureDefinition/SintomasEspeciales","Internal"
+http://agenda.cl/ValueSet/VSUrgenciaPercibida,0.1.0,active,,VSUrgenciaPercibida,VS Urgencia Percibida,"Traigo los codigos de la urgencia percibida","StructureDefinition/UrgenciaPercibida","Internal"
+http://hl7.org/fhir/ValueSet/c80-practice-codes,4.0.1,active,"2.16.840.1.113883.3.88.12.80.72",PracticeSettingCodeValueSet,Practice Setting Code Value Set,"This is the code representing the clinical specialty of the clinician or provider who interacted with, treated, or provided a service to/for the patient. The value set used for clinical specialty has been limited by HITSP to the value set reproduced from HITSP C80 Table 2-149 Clinical Specialty Value Set Definition.","StructureDefinition/Cita","SCT"
+https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSEspecialidadesDeisCL,1.8.5,active,,VSEspecialidadesDeisCL,Códigos de Especialidades,"Códigos de especialidades médicas descritas según DEIS","StructureDefinition/VSEspecialidadesDeisCL","hl7.fhir.cl.clcore"
+https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSTiposDocumentos,1.8.5,active,,VSTiposDocumentos,Tipos de Documentos,"Tipos de Documentos para identificación según tabla HL7 V3 y CodeSystem local.","StructureDefinition/Paciente","hl7.fhir.cl.clcore,THO (V2)"

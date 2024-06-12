@@ -1,0 +1,51 @@
+{
+  "resourceType" : "Practitioner",
+  "id" : "EjemploPrestador",
+  "meta" : {
+    "profile" : ["http://agenda.cl/StructureDefinition/Prestador"]
+  },
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Practitioner</b><a name=\"EjemploPrestador\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Practitioner &quot;EjemploPrestador&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Prestador.html\">Perfil del Prestador</a></p></div><p><b>Especialidad del médico principal</b>: 28 (Details: [not stated] code 28 = '28', stated as 'null')</p><p><b>name</b>: Navarro Sebastian Alberto </p><blockquote><p><b>qualification</b></p><p><b>code</b>: Certificado(s) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#2112 &quot;Certificado Profesional Médico Cirujano&quot;)</span></p></blockquote><blockquote><p><b>qualification</b></p><p><b>code</b>: Especialidad(es) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#122 &quot;Cardiología&quot;)</span></p></blockquote><blockquote><p><b>qualification</b></p><p><b>code</b>: Especialidad(es) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#1234 &quot;Medicina interna&quot;)</span></p></blockquote></div>"
+  },
+  "extension" : [{
+    "url" : "http://agenda.cl/StructureDefinition/VSEspecialidadesDeisCL",
+    "valueCoding" : {
+      "code" : "28"
+    }
+  }],
+  "name" : [{
+    "family" : "Sebastian Alberto",
+    "given" : ["Navarro"]
+  }],
+  "qualification" : [{
+    "code" : {
+      "coding" : [{
+        "system" : "https://api.minsal.cl/v1/catalogos/profesiones/",
+        "code" : "2112",
+        "display" : "Certificado Profesional Médico Cirujano"
+      }],
+      "text" : "Certificado(s)"
+    }
+  },
+  {
+    "code" : {
+      "coding" : [{
+        "system" : "https://api.minsal.cl/v1/catalogos/tiposEspecialidadMedica/",
+        "code" : "122",
+        "display" : "Cardiología"
+      }],
+      "text" : "Especialidad(es)"
+    }
+  },
+  {
+    "code" : {
+      "coding" : [{
+        "system" : "https://api.minsal.cl/v1/catalogos/tiposEspecialidadMedica/",
+        "code" : "1234",
+        "display" : "Medicina interna"
+      }],
+      "text" : "Especialidad(es)"
+    }
+  }]
+}

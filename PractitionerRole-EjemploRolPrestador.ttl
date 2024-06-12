@@ -1,0 +1,31 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://agenda.cl/PractitionerRole/EjemploRolPrestador> a fhir:PractitionerRole ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "EjemploRolPrestador"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://agenda.cl/StructureDefinition/RolPrestador"^^xsd:anyURI ;
+       fhir:link <http://agenda.cl/StructureDefinition/RolPrestador>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: PractitionerRole</b><a name=\"EjemploRolPrestador\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PractitionerRole &quot;EjemploRolPrestador&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-RolPrestador.html\">Perfil del Rol del Prestador</a></p></div><p><b>organization</b>: <a href=\"Organization-EjemploOrganizacion.html\">Organization/EjemploOrganizacion</a> &quot;CESFAM Barón&quot;</p><p><b>healthcareService</b>: <a href=\"HealthcareService-EjemploServicioDeSalud.html\">HealthcareService/EjemploServicioDeSalud</a></p></div>"
+  ] ; # 
+  fhir:organization [
+     fhir:link <http://agenda.cl/Organization/EjemploOrganizacion> ;
+     fhir:reference [ fhir:v "Organization/EjemploOrganizacion" ]
+  ] ; # 
+  fhir:healthcareService ( [
+     fhir:link <http://agenda.cl/HealthcareService/EjemploServicioDeSalud> ;
+     fhir:reference [ fhir:v "HealthcareService/EjemploServicioDeSalud" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

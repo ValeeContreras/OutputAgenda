@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="CSSintomasEspeciales"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This case-sensitive code system <code>http://agenda.cl/CodeSystem/CSSintomasEspeciales</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">01<a name="CSSintomasEspeciales-01"> </a></td><td>Fiebre alta persistente</td><td>Temperatura corporal elevada que no cede con medicación o que dura más de unos días podría indicar una infección que requiere atención médica.</td></tr><tr><td style="white-space:nowrap">02<a name="CSSintomasEspeciales-02"> </a></td><td>Dolor intenso o persistente</td><td>Dolores que no se alivian o que interfieren significativamente con las actividades diarias pueden necesitar evaluación médica.</td></tr><tr><td style="white-space:nowrap">03<a name="CSSintomasEspeciales-03"> </a></td><td>Dificultad para respirar</td><td>Respirar con dificultad, sibilancias o sensación de opresión en el pecho.</td></tr><tr><td style="white-space:nowrap">04<a name="CSSintomasEspeciales-04"> </a></td><td>Sangrado nasal</td><td>Descripcion de Desconosido</td></tr><tr><td style="white-space:nowrap">05<a name="CSSintomasEspeciales-05"> </a></td><td>Pérdida de peso inexplicable</td><td>Una disminución significativa del peso sin razón aparente puede ser indicativo de condiciones subyacentes.</td></tr><tr><td style="white-space:nowrap">06<a name="CSSintomasEspeciales-06"> </a></td><td>Cambios en la visión</td><td>Dificultades para ver, visión borrosa o pérdida de la visión pueden señalar problemas oculares serios.</td></tr><tr><td style="white-space:nowrap">07<a name="CSSintomasEspeciales-07"> </a></td><td>Erupciones cutáneas o cambios en la piel</td><td>La aparición de erupciones, cambios en lunares existentes o nuevas lesiones en la piel pueden requerir evaluación.</td></tr><tr><td style="white-space:nowrap">08<a name="CSSintomasEspeciales-08"> </a></td><td>Fatiga</td><td>Sentirse constantemente cansado o agotado, incluso después de descansar adecuadamente.</td></tr><tr><td style="white-space:nowrap">09<a name="CSSintomasEspeciales-09"> </a></td><td>Síntomas de deshidratación</td><td>Sensación de sed intensa, orina oscura o disminución de la frecuencia urinaria.</td></tr><tr><td style="white-space:nowrap">10<a name="CSSintomasEspeciales-10"> </a></td><td>Mareos o desmayos</td><td>Episodios de mareo o pérdida de conciencia pueden ser signos de problemas cardíacos u otros.</td></tr><tr><td style="white-space:nowrap">11<a name="CSSintomasEspeciales-11"> </a></td><td>Problemas digestivos persistentes</td><td>Dificultades como diarrea crónica, estreñimiento o dolor abdominal.</td></tr><tr><td style="white-space:nowrap">12<a name="CSSintomasEspeciales-12"> </a></td><td>Tos persistente o con sangre</td><td>Una tos que no mejora o que viene acompañada de sangre puede ser señal de una infección grave.</td></tr><tr><td style="white-space:nowrap">13<a name="CSSintomasEspeciales-13"> </a></td><td>Dolor o ardor al orinar</td><td>Estos síntomas pueden indicar una infección del tracto urinario o problemas renales.</td></tr><tr><td style="white-space:nowrap">14<a name="CSSintomasEspeciales-14"> </a></td><td>Alteraciones en el ciclo menstrual</td><td>Cambios significativos en la regularidad, duración o flujo menstrual.</td></tr><tr><td style="white-space:nowrap">15<a name="CSSintomasEspeciales-15"> </a></td><td>Hinchazón o edema</td><td>Acumulación anormal de líquido en tejidos del cuerpo, especialmente en piernas o tobillos.</td></tr><tr><td style="white-space:nowrap">16<a name="CSSintomasEspeciales-16"> </a></td><td>Dolor torácico</td><td>Dolor en el área del pecho que puede ser indicativo de problemas cardíacos.</td></tr><tr><td style="white-space:nowrap">17<a name="CSSintomasEspeciales-17"> </a></td><td>Palpitaciones cardíacas</td><td>Sensación de latidos cardíacos fuertes, rápidos o irregulares.</td></tr><tr><td style="white-space:nowrap">18<a name="CSSintomasEspeciales-18"> </a></td><td>Fiebre baja persistente</td><td>Temperatura corporal ligeramente elevada durante un período prolongado.</td></tr><tr><td style="white-space:nowrap">19<a name="CSSintomasEspeciales-19"> </a></td><td>Cambios en el estado mental</td><td>Confusión, desorientación o dificultades con la memoria o el pensamiento.</td></tr><tr><td style="white-space:nowrap">20<a name="CSSintomasEspeciales-20"> </a></td><td>Dolor de cabeza severo o inusual</td><td>Cefaleas intensas o diferentes a las habituales que no mejoran con medicación.</td></tr></table></div>
+  </text>
+  <url value="http://agenda.cl/CodeSystem/CSSintomasEspeciales"/>
+  <version value="0.1.0"/>
+  <name value="CSSintomasEspeciales"/>
+  <title value="CS Sintomas Especiales"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2024-06-11T20:58:46-04:00"/>
+  <publisher value="Valentina Contreras"/>
+  <contact>
+    <name value="Valentina Contreras"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Codigos de los sintomas que presenta el paciente."/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="20"/>
+  <concept>
+    <code value="01"/>
+    <display value="Fiebre alta persistente"/>
+    <definition value="Temperatura corporal elevada que no cede con medicación o que dura más de unos días podría indicar una infección que requiere atención médica."/>
+  </concept>
+  <concept>
+    <code value="02"/>
+    <display value="Dolor intenso o persistente"/>
+    <definition value="Dolores que no se alivian o que interfieren significativamente con las actividades diarias pueden necesitar evaluación médica."/>
+  </concept>
+  <concept>
+    <code value="03"/>
+    <display value="Dificultad para respirar"/>
+    <definition value="Respirar con dificultad, sibilancias o sensación de opresión en el pecho."/>
+  </concept>
+  <concept>
+    <code value="04"/>
+    <display value="Sangrado nasal"/>
+    <definition value="Descripcion de Desconosido"/>
+  </concept>
+  <concept>
+    <code value="05"/>
+    <display value="Pérdida de peso inexplicable"/>
+    <definition value="Una disminución significativa del peso sin razón aparente puede ser indicativo de condiciones subyacentes."/>
+  </concept>
+  <concept>
+    <code value="06"/>
+    <display value="Cambios en la visión"/>
+    <definition value="Dificultades para ver, visión borrosa o pérdida de la visión pueden señalar problemas oculares serios."/>
+  </concept>
+  <concept>
+    <code value="07"/>
+    <display value="Erupciones cutáneas o cambios en la piel"/>
+    <definition value="La aparición de erupciones, cambios en lunares existentes o nuevas lesiones en la piel pueden requerir evaluación."/>
+  </concept>
+  <concept>
+    <code value="08"/>
+    <display value="Fatiga"/>
+    <definition value="Sentirse constantemente cansado o agotado, incluso después de descansar adecuadamente."/>
+  </concept>
+  <concept>
+    <code value="09"/>
+    <display value="Síntomas de deshidratación"/>
+    <definition value="Sensación de sed intensa, orina oscura o disminución de la frecuencia urinaria."/>
+  </concept>
+  <concept>
+    <code value="10"/>
+    <display value="Mareos o desmayos"/>
+    <definition value="Episodios de mareo o pérdida de conciencia pueden ser signos de problemas cardíacos u otros."/>
+  </concept>
+  <concept>
+    <code value="11"/>
+    <display value="Problemas digestivos persistentes"/>
+    <definition value="Dificultades como diarrea crónica, estreñimiento o dolor abdominal."/>
+  </concept>
+  <concept>
+    <code value="12"/>
+    <display value="Tos persistente o con sangre"/>
+    <definition value="Una tos que no mejora o que viene acompañada de sangre puede ser señal de una infección grave."/>
+  </concept>
+  <concept>
+    <code value="13"/>
+    <display value="Dolor o ardor al orinar"/>
+    <definition value="Estos síntomas pueden indicar una infección del tracto urinario o problemas renales."/>
+  </concept>
+  <concept>
+    <code value="14"/>
+    <display value="Alteraciones en el ciclo menstrual"/>
+    <definition value="Cambios significativos en la regularidad, duración o flujo menstrual."/>
+  </concept>
+  <concept>
+    <code value="15"/>
+    <display value="Hinchazón o edema"/>
+    <definition value="Acumulación anormal de líquido en tejidos del cuerpo, especialmente en piernas o tobillos."/>
+  </concept>
+  <concept>
+    <code value="16"/>
+    <display value="Dolor torácico"/>
+    <definition value="Dolor en el área del pecho que puede ser indicativo de problemas cardíacos."/>
+  </concept>
+  <concept>
+    <code value="17"/>
+    <display value="Palpitaciones cardíacas"/>
+    <definition value="Sensación de latidos cardíacos fuertes, rápidos o irregulares."/>
+  </concept>
+  <concept>
+    <code value="18"/>
+    <display value="Fiebre baja persistente"/>
+    <definition value="Temperatura corporal ligeramente elevada durante un período prolongado."/>
+  </concept>
+  <concept>
+    <code value="19"/>
+    <display value="Cambios en el estado mental"/>
+    <definition value="Confusión, desorientación o dificultades con la memoria o el pensamiento."/>
+  </concept>
+  <concept>
+    <code value="20"/>
+    <display value="Dolor de cabeza severo o inusual"/>
+    <definition value="Cefaleas intensas o diferentes a las habituales que no mejoran con medicación."/>
+  </concept>
+</CodeSystem>

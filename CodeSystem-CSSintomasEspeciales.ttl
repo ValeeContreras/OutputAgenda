@@ -1,0 +1,117 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://agenda.cl/CodeSystem/CSSintomasEspeciales> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "CSSintomasEspeciales"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This case-sensitive code system <code>http://agenda.cl/CodeSystem/CSSintomasEspeciales</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">01<a name=\"CSSintomasEspeciales-01\"> </a></td><td>Fiebre alta persistente</td><td>Temperatura corporal elevada que no cede con medicación o que dura más de unos días podría indicar una infección que requiere atención médica.</td></tr><tr><td style=\"white-space:nowrap\">02<a name=\"CSSintomasEspeciales-02\"> </a></td><td>Dolor intenso o persistente</td><td>Dolores que no se alivian o que interfieren significativamente con las actividades diarias pueden necesitar evaluación médica.</td></tr><tr><td style=\"white-space:nowrap\">03<a name=\"CSSintomasEspeciales-03\"> </a></td><td>Dificultad para respirar</td><td>Respirar con dificultad, sibilancias o sensación de opresión en el pecho.</td></tr><tr><td style=\"white-space:nowrap\">04<a name=\"CSSintomasEspeciales-04\"> </a></td><td>Sangrado nasal</td><td>Descripcion de Desconosido</td></tr><tr><td style=\"white-space:nowrap\">05<a name=\"CSSintomasEspeciales-05\"> </a></td><td>Pérdida de peso inexplicable</td><td>Una disminución significativa del peso sin razón aparente puede ser indicativo de condiciones subyacentes.</td></tr><tr><td style=\"white-space:nowrap\">06<a name=\"CSSintomasEspeciales-06\"> </a></td><td>Cambios en la visión</td><td>Dificultades para ver, visión borrosa o pérdida de la visión pueden señalar problemas oculares serios.</td></tr><tr><td style=\"white-space:nowrap\">07<a name=\"CSSintomasEspeciales-07\"> </a></td><td>Erupciones cutáneas o cambios en la piel</td><td>La aparición de erupciones, cambios en lunares existentes o nuevas lesiones en la piel pueden requerir evaluación.</td></tr><tr><td style=\"white-space:nowrap\">08<a name=\"CSSintomasEspeciales-08\"> </a></td><td>Fatiga</td><td>Sentirse constantemente cansado o agotado, incluso después de descansar adecuadamente.</td></tr><tr><td style=\"white-space:nowrap\">09<a name=\"CSSintomasEspeciales-09\"> </a></td><td>Síntomas de deshidratación</td><td>Sensación de sed intensa, orina oscura o disminución de la frecuencia urinaria.</td></tr><tr><td style=\"white-space:nowrap\">10<a name=\"CSSintomasEspeciales-10\"> </a></td><td>Mareos o desmayos</td><td>Episodios de mareo o pérdida de conciencia pueden ser signos de problemas cardíacos u otros.</td></tr><tr><td style=\"white-space:nowrap\">11<a name=\"CSSintomasEspeciales-11\"> </a></td><td>Problemas digestivos persistentes</td><td>Dificultades como diarrea crónica, estreñimiento o dolor abdominal.</td></tr><tr><td style=\"white-space:nowrap\">12<a name=\"CSSintomasEspeciales-12\"> </a></td><td>Tos persistente o con sangre</td><td>Una tos que no mejora o que viene acompañada de sangre puede ser señal de una infección grave.</td></tr><tr><td style=\"white-space:nowrap\">13<a name=\"CSSintomasEspeciales-13\"> </a></td><td>Dolor o ardor al orinar</td><td>Estos síntomas pueden indicar una infección del tracto urinario o problemas renales.</td></tr><tr><td style=\"white-space:nowrap\">14<a name=\"CSSintomasEspeciales-14\"> </a></td><td>Alteraciones en el ciclo menstrual</td><td>Cambios significativos en la regularidad, duración o flujo menstrual.</td></tr><tr><td style=\"white-space:nowrap\">15<a name=\"CSSintomasEspeciales-15\"> </a></td><td>Hinchazón o edema</td><td>Acumulación anormal de líquido en tejidos del cuerpo, especialmente en piernas o tobillos.</td></tr><tr><td style=\"white-space:nowrap\">16<a name=\"CSSintomasEspeciales-16\"> </a></td><td>Dolor torácico</td><td>Dolor en el área del pecho que puede ser indicativo de problemas cardíacos.</td></tr><tr><td style=\"white-space:nowrap\">17<a name=\"CSSintomasEspeciales-17\"> </a></td><td>Palpitaciones cardíacas</td><td>Sensación de latidos cardíacos fuertes, rápidos o irregulares.</td></tr><tr><td style=\"white-space:nowrap\">18<a name=\"CSSintomasEspeciales-18\"> </a></td><td>Fiebre baja persistente</td><td>Temperatura corporal ligeramente elevada durante un período prolongado.</td></tr><tr><td style=\"white-space:nowrap\">19<a name=\"CSSintomasEspeciales-19\"> </a></td><td>Cambios en el estado mental</td><td>Confusión, desorientación o dificultades con la memoria o el pensamiento.</td></tr><tr><td style=\"white-space:nowrap\">20<a name=\"CSSintomasEspeciales-20\"> </a></td><td>Dolor de cabeza severo o inusual</td><td>Cefaleas intensas o diferentes a las habituales que no mejoran con medicación.</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://agenda.cl/CodeSystem/CSSintomasEspeciales"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "CSSintomasEspeciales"] ; # 
+  fhir:title [ fhir:v "CS Sintomas Especiales"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2024-06-11T20:58:46-04:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Valentina Contreras"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Valentina Contreras" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://example.org/example-publisher" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Codigos de los sintomas que presenta el paciente."] ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "20"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "01" ] ;
+     fhir:display [ fhir:v "Fiebre alta persistente" ] ;
+     fhir:definition [ fhir:v "Temperatura corporal elevada que no cede con medicación o que dura más de unos días podría indicar una infección que requiere atención médica." ]
+  ] [
+     fhir:code [ fhir:v "02" ] ;
+     fhir:display [ fhir:v "Dolor intenso o persistente" ] ;
+     fhir:definition [ fhir:v "Dolores que no se alivian o que interfieren significativamente con las actividades diarias pueden necesitar evaluación médica." ]
+  ] [
+     fhir:code [ fhir:v "03" ] ;
+     fhir:display [ fhir:v "Dificultad para respirar" ] ;
+     fhir:definition [ fhir:v "Respirar con dificultad, sibilancias o sensación de opresión en el pecho." ]
+  ] [
+     fhir:code [ fhir:v "04" ] ;
+     fhir:display [ fhir:v "Sangrado nasal" ] ;
+     fhir:definition [ fhir:v "Descripcion de Desconosido" ]
+  ] [
+     fhir:code [ fhir:v "05" ] ;
+     fhir:display [ fhir:v "Pérdida de peso inexplicable" ] ;
+     fhir:definition [ fhir:v "Una disminución significativa del peso sin razón aparente puede ser indicativo de condiciones subyacentes." ]
+  ] [
+     fhir:code [ fhir:v "06" ] ;
+     fhir:display [ fhir:v "Cambios en la visión" ] ;
+     fhir:definition [ fhir:v "Dificultades para ver, visión borrosa o pérdida de la visión pueden señalar problemas oculares serios." ]
+  ] [
+     fhir:code [ fhir:v "07" ] ;
+     fhir:display [ fhir:v "Erupciones cutáneas o cambios en la piel" ] ;
+     fhir:definition [ fhir:v "La aparición de erupciones, cambios en lunares existentes o nuevas lesiones en la piel pueden requerir evaluación." ]
+  ] [
+     fhir:code [ fhir:v "08" ] ;
+     fhir:display [ fhir:v "Fatiga" ] ;
+     fhir:definition [ fhir:v "Sentirse constantemente cansado o agotado, incluso después de descansar adecuadamente." ]
+  ] [
+     fhir:code [ fhir:v "09" ] ;
+     fhir:display [ fhir:v "Síntomas de deshidratación" ] ;
+     fhir:definition [ fhir:v "Sensación de sed intensa, orina oscura o disminución de la frecuencia urinaria." ]
+  ] [
+     fhir:code [ fhir:v "10" ] ;
+     fhir:display [ fhir:v "Mareos o desmayos" ] ;
+     fhir:definition [ fhir:v "Episodios de mareo o pérdida de conciencia pueden ser signos de problemas cardíacos u otros." ]
+  ] [
+     fhir:code [ fhir:v "11" ] ;
+     fhir:display [ fhir:v "Problemas digestivos persistentes" ] ;
+     fhir:definition [ fhir:v "Dificultades como diarrea crónica, estreñimiento o dolor abdominal." ]
+  ] [
+     fhir:code [ fhir:v "12" ] ;
+     fhir:display [ fhir:v "Tos persistente o con sangre" ] ;
+     fhir:definition [ fhir:v "Una tos que no mejora o que viene acompañada de sangre puede ser señal de una infección grave." ]
+  ] [
+     fhir:code [ fhir:v "13" ] ;
+     fhir:display [ fhir:v "Dolor o ardor al orinar" ] ;
+     fhir:definition [ fhir:v "Estos síntomas pueden indicar una infección del tracto urinario o problemas renales." ]
+  ] [
+     fhir:code [ fhir:v "14" ] ;
+     fhir:display [ fhir:v "Alteraciones en el ciclo menstrual" ] ;
+     fhir:definition [ fhir:v "Cambios significativos en la regularidad, duración o flujo menstrual." ]
+  ] [
+     fhir:code [ fhir:v "15" ] ;
+     fhir:display [ fhir:v "Hinchazón o edema" ] ;
+     fhir:definition [ fhir:v "Acumulación anormal de líquido en tejidos del cuerpo, especialmente en piernas o tobillos." ]
+  ] [
+     fhir:code [ fhir:v "16" ] ;
+     fhir:display [ fhir:v "Dolor torácico" ] ;
+     fhir:definition [ fhir:v "Dolor en el área del pecho que puede ser indicativo de problemas cardíacos." ]
+  ] [
+     fhir:code [ fhir:v "17" ] ;
+     fhir:display [ fhir:v "Palpitaciones cardíacas" ] ;
+     fhir:definition [ fhir:v "Sensación de latidos cardíacos fuertes, rápidos o irregulares." ]
+  ] [
+     fhir:code [ fhir:v "18" ] ;
+     fhir:display [ fhir:v "Fiebre baja persistente" ] ;
+     fhir:definition [ fhir:v "Temperatura corporal ligeramente elevada durante un período prolongado." ]
+  ] [
+     fhir:code [ fhir:v "19" ] ;
+     fhir:display [ fhir:v "Cambios en el estado mental" ] ;
+     fhir:definition [ fhir:v "Confusión, desorientación o dificultades con la memoria o el pensamiento." ]
+  ] [
+     fhir:code [ fhir:v "20" ] ;
+     fhir:display [ fhir:v "Dolor de cabeza severo o inusual" ] ;
+     fhir:definition [ fhir:v "Cefaleas intensas o diferentes a las habituales que no mejoran con medicación." ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

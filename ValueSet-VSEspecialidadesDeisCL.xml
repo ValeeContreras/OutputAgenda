@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="VSEspecialidadesDeisCL"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="https://hl7chile.cl/fhir/ig/clcore/1.8.5/CodeSystem-CSEspecialidadesDeisCL.html"><code>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL</code></a></li></ul></div>
+  </text>
+  <url value="http://agenda.cl/ValueSet/VSEspecialidadesDeisCL"/>
+  <version value="0.1.0"/>
+  <name value="VSEspecialidadesDeisCL"/>
+  <title value="VS Códigos de Especialidades"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2024-06-11T20:58:46-04:00"/>
+  <publisher value="Valentina Contreras"/>
+  <contact>
+    <name value="Valentina Contreras"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Códigos de especialidades médicas descritas según DEIS"/>
+  <compose>
+    <include>
+      <system value="https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL"/>
+    </include>
+  </compose>
+</ValueSet>

@@ -1,0 +1,57 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://agenda.cl/CodeSystem/CSUrgenciaPercibida> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "CSUrgenciaPercibida"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This case-sensitive code system <code>http://agenda.cl/CodeSystem/CSUrgenciaPercibida</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">01<a name=\"CSUrgenciaPercibida-01\"> </a></td><td>No dolor</td><td>El paciente no presenta un dolor</td></tr><tr><td style=\"white-space:nowrap\">02<a name=\"CSUrgenciaPercibida-02\"> </a></td><td>Leve</td><td>El paciente presenta un dolor leve</td></tr><tr><td style=\"white-space:nowrap\">03<a name=\"CSUrgenciaPercibida-03\"> </a></td><td>Moderado</td><td>El paciente presenta un dolor moderado</td></tr><tr><td style=\"white-space:nowrap\">04<a name=\"CSUrgenciaPercibida-04\"> </a></td><td>Severo</td><td>El paceinte presenta un dolor severo</td></tr><tr><td style=\"white-space:nowrap\">05<a name=\"CSUrgenciaPercibida-05\"> </a></td><td>Insoportable</td><td>El paciente presenta un dolor insoportable</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://agenda.cl/CodeSystem/CSUrgenciaPercibida"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "CSUrgenciaPercibida"] ; # 
+  fhir:title [ fhir:v "CS Urgencia Percibida"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2024-06-11T20:58:46-04:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Valentina Contreras"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Valentina Contreras" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://example.org/example-publisher" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Codidos de la urgencia percibida segun el paciente."] ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "5"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "01" ] ;
+     fhir:display [ fhir:v "No dolor" ] ;
+     fhir:definition [ fhir:v "El paciente no presenta un dolor" ]
+  ] [
+     fhir:code [ fhir:v "02" ] ;
+     fhir:display [ fhir:v "Leve" ] ;
+     fhir:definition [ fhir:v "El paciente presenta un dolor leve" ]
+  ] [
+     fhir:code [ fhir:v "03" ] ;
+     fhir:display [ fhir:v "Moderado" ] ;
+     fhir:definition [ fhir:v "El paciente presenta un dolor moderado" ]
+  ] [
+     fhir:code [ fhir:v "04" ] ;
+     fhir:display [ fhir:v "Severo" ] ;
+     fhir:definition [ fhir:v "El paceinte presenta un dolor severo" ]
+  ] [
+     fhir:code [ fhir:v "05" ] ;
+     fhir:display [ fhir:v "Insoportable" ] ;
+     fhir:definition [ fhir:v "El paciente presenta un dolor insoportable" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

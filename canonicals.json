@@ -1,0 +1,198 @@
+[
+  {
+    "id" : "CSEspecialidadesDeisCL",
+    "type" : "CodeSystem",
+    "url" : "http://agenda.cl/CodeSystem/CSEspecialidadesDeisCL",
+    "version" : "0.1.0",
+    "name" : "CSEspecialidadesDeisCL"
+  },
+  {
+    "id" : "CSPrestaciones",
+    "type" : "CodeSystem",
+    "url" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+    "version" : "0.1.0",
+    "name" : "CSPrestaciones"
+  },
+  {
+    "id" : "CSPrevision",
+    "type" : "CodeSystem",
+    "url" : "http://agenda.cl/CodeSystem/CSPrevision",
+    "version" : "0.1.0",
+    "name" : "CSPrevision"
+  },
+  {
+    "id" : "CSServicios",
+    "type" : "CodeSystem",
+    "url" : "http://agenda.cl/CodeSystem/CSServicios",
+    "version" : "0.1.0",
+    "name" : "CSServicios"
+  },
+  {
+    "id" : "CSSintomasEspeciales",
+    "type" : "CodeSystem",
+    "url" : "http://agenda.cl/CodeSystem/CSSintomasEspeciales",
+    "version" : "0.1.0",
+    "name" : "CSSintomasEspeciales"
+  },
+  {
+    "id" : "CSUrgenciaPercibida",
+    "type" : "CodeSystem",
+    "url" : "http://agenda.cl/CodeSystem/CSUrgenciaPercibida",
+    "version" : "0.1.0",
+    "name" : "CSUrgenciaPercibida"
+  },
+  {
+    "id" : "fhir.agenda",
+    "type" : "ImplementationGuide",
+    "url" : "http://agenda.cl/ImplementationGuide/fhir.agenda",
+    "version" : "0.1.0",
+    "name" : "Agenda"
+  },
+  {
+    "id" : "ApellidoServicio",
+    "type" : "StructureDefinition",
+    "url" : "http://agenda.cl/StructureDefinition/ApellidoServicio",
+    "version" : "0.1.0",
+    "name" : "ApellidoServicio"
+  },
+  {
+    "id" : "Cita",
+    "type" : "StructureDefinition",
+    "url" : "http://agenda.cl/StructureDefinition/Cita",
+    "version" : "0.1.0",
+    "name" : "Cita"
+  },
+  {
+    "id" : "CitaRespuesta",
+    "type" : "StructureDefinition",
+    "url" : "http://agenda.cl/StructureDefinition/CitaRespuesta",
+    "version" : "0.1.0",
+    "name" : "CitaRespuesta"
+  },
+  {
+    "id" : "Edad",
+    "type" : "StructureDefinition",
+    "url" : "http://agenda.cl/StructureDefinition/Edad",
+    "version" : "0.1.0",
+    "name" : "Edad"
+  },
+  {
+    "id" : "Organizacion",
+    "type" : "StructureDefinition",
+    "url" : "http://agenda.cl/StructureDefinition/Organizacion",
+    "version" : "0.1.0",
+    "name" : "Organizacion"
+  },
+  {
+    "id" : "Paciente",
+    "type" : "StructureDefinition",
+    "url" : "http://agenda.cl/StructureDefinition/Paciente",
+    "version" : "0.1.0",
+    "name" : "Paciente"
+  },
+  {
+    "id" : "Prestaciones",
+    "type" : "StructureDefinition",
+    "url" : "http://agenda.cl/StructureDefinition/Prestaciones",
+    "version" : "0.1.0",
+    "name" : "Prestaciones"
+  },
+  {
+    "id" : "Prestador",
+    "type" : "StructureDefinition",
+    "url" : "http://agenda.cl/StructureDefinition/Prestador",
+    "version" : "0.1.0",
+    "name" : "Prestador"
+  },
+  {
+    "id" : "Prevision",
+    "type" : "StructureDefinition",
+    "url" : "http://agenda.cl/StructureDefinition/Prevision",
+    "version" : "0.1.0",
+    "name" : "Prevision"
+  },
+  {
+    "id" : "RolPrestador",
+    "type" : "StructureDefinition",
+    "url" : "http://agenda.cl/StructureDefinition/RolPrestador",
+    "version" : "0.1.0",
+    "name" : "RolPrestador"
+  },
+  {
+    "id" : "ServicioDeSalud",
+    "type" : "StructureDefinition",
+    "url" : "http://agenda.cl/StructureDefinition/ServicioDeSalud",
+    "version" : "0.1.0",
+    "name" : "ServicioDeSalud"
+  },
+  {
+    "id" : "Servicios",
+    "type" : "StructureDefinition",
+    "url" : "http://agenda.cl/StructureDefinition/Servicios",
+    "version" : "0.1.0",
+    "name" : "Servicios"
+  },
+  {
+    "id" : "SintomasEspeciales",
+    "type" : "StructureDefinition",
+    "url" : "http://agenda.cl/StructureDefinition/SintomasEspeciales",
+    "version" : "0.1.0",
+    "name" : "SintomasEspeciales"
+  },
+  {
+    "id" : "UrgenciaPercibida",
+    "type" : "StructureDefinition",
+    "url" : "http://agenda.cl/StructureDefinition/UrgenciaPercibida",
+    "version" : "0.1.0",
+    "name" : "UrgenciaPercibida"
+  },
+  {
+    "id" : "VSEspecialidadesDeisCL",
+    "type" : "StructureDefinition",
+    "url" : "http://agenda.cl/StructureDefinition/VSEspecialidadesDeisCL",
+    "version" : "0.1.0",
+    "name" : "EspecialidadCL"
+  },
+  {
+    "id" : "VSEspecialidadesDeisCL",
+    "type" : "ValueSet",
+    "url" : "http://agenda.cl/ValueSet/VSEspecialidadesDeisCL",
+    "version" : "0.1.0",
+    "name" : "VSEspecialidadesDeisCL"
+  },
+  {
+    "id" : "VSPrestaciones",
+    "type" : "ValueSet",
+    "url" : "http://agenda.cl/ValueSet/VSPrestaciones",
+    "version" : "0.1.0",
+    "name" : "VSPrestaciones"
+  },
+  {
+    "id" : "VSPrevision",
+    "type" : "ValueSet",
+    "url" : "http://agenda.cl/ValueSet/VSPrevision",
+    "version" : "0.1.0",
+    "name" : "VSPrevision"
+  },
+  {
+    "id" : "VSServicios",
+    "type" : "ValueSet",
+    "url" : "http://agenda.cl/ValueSet/VSServicios",
+    "version" : "0.1.0",
+    "name" : "VSServicios"
+  },
+  {
+    "id" : "VSSintomasEspeciales",
+    "type" : "ValueSet",
+    "url" : "http://agenda.cl/ValueSet/VSSintomasEspeciales",
+    "version" : "0.1.0",
+    "name" : "VSSintomasEspeciales"
+  },
+  {
+    "id" : "VSUrgenciaPercibida",
+    "type" : "ValueSet",
+    "url" : "http://agenda.cl/ValueSet/VSUrgenciaPercibida",
+    "version" : "0.1.0",
+    "name" : "VSUrgenciaPercibida"
+  }
+]

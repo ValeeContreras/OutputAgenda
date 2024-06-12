@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="CSServicios"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This case-sensitive code system <code>http://agenda.cl/CodeSystem/CSServicios</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">1<a name="CSServicios-1"> </a></td><td>Adopción/Atención permanente Información/Apoyo</td><td>Adopción y atención permanente información/apoyo</td></tr><tr><td style="white-space:nowrap">2<a name="CSServicios-2"> </a></td><td>Evaluación de cuidados para personas mayores</td><td>Evaluación de cuidados para personas mayores</td></tr></table></div>
+  </text>
+  <url value="http://agenda.cl/CodeSystem/CSServicios"/>
+  <version value="0.1.0"/>
+  <name value="CSServicios"/>
+  <title value="CSServicios"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2024-06-11T20:58:46-04:00"/>
+  <publisher value="Valentina Contreras"/>
+  <contact>
+    <name value="Valentina Contreras"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Aca estan los codigos del servicio del prestador que dara la cita"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="2"/>
+  <concept>
+    <code value="1"/>
+    <display value="Adopción/Atención permanente Información/Apoyo"/>
+    <definition value="Adopción y atención permanente información/apoyo"/>
+  </concept>
+  <concept>
+    <code value="2"/>
+    <display value="Evaluación de cuidados para personas mayores"/>
+    <definition value="Evaluación de cuidados para personas mayores"/>
+  </concept>
+</CodeSystem>

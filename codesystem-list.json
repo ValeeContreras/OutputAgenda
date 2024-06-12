@@ -1,0 +1,52 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://agenda.cl/CodeSystem/CSEspecialidadesDeisCL",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "CSEspecialidadesDeisCL",
+      "title" : "CS Códigos de Especialidades del medico tratante",
+      "description" : "Códigos de especialidades médicas descritas según DEIS"
+    },
+    {
+      "url" : "http://agenda.cl/CodeSystem/CSPrestaciones",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "CSPrestaciones",
+      "title" : "CS Prestaciones",
+      "description" : "Codigos de las prestaciones"
+    },
+    {
+      "url" : "http://agenda.cl/CodeSystem/CSPrevision",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "CSPrevision",
+      "title" : "CS Prevision",
+      "description" : "Codigos de la previsión del paciente"
+    },
+    {
+      "url" : "http://agenda.cl/CodeSystem/CSServicios",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "CSServicios",
+      "title" : "CSServicios",
+      "description" : "Aca estan los codigos del servicio del prestador que dara la cita"
+    },
+    {
+      "url" : "http://agenda.cl/CodeSystem/CSSintomasEspeciales",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "CSSintomasEspeciales",
+      "title" : "CS Sintomas Especiales",
+      "description" : "Codigos de los sintomas que presenta el paciente."
+    },
+    {
+      "url" : "http://agenda.cl/CodeSystem/CSUrgenciaPercibida",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "CSUrgenciaPercibida",
+      "title" : "CS Urgencia Percibida",
+      "description" : "Codidos de la urgencia percibida segun el paciente."
+    }
+  ]
+}

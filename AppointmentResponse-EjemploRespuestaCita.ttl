@@ -1,0 +1,32 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://agenda.cl/AppointmentResponse/EjemploRespuestaCita> a fhir:AppointmentResponse ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "EjemploRespuestaCita"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://agenda.cl/StructureDefinition/CitaRespuesta"^^xsd:anyURI ;
+       fhir:link <http://agenda.cl/StructureDefinition/CitaRespuesta>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: AppointmentResponse</b><a name=\"EjemploRespuestaCita\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource AppointmentResponse &quot;EjemploRespuestaCita&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-CitaRespuesta.html\">Perfil de la Respuesta a la cita.</a></p></div><p><b>appointment</b>: <a href=\"Appointment-EjemploCita.html\">Appointment/EjemploCita</a></p><p><b>actor</b>: <a href=\"Patient-EjemploPaciente.html\">Patient/EjemploPaciente</a> &quot; VALENTINA DANIELA&quot;</p><p><b>participantStatus</b>: accepted</p></div>"
+  ] ; # 
+  fhir:appointment [
+     fhir:link <http://agenda.cl/Appointment/EjemploCita> ;
+     fhir:reference [ fhir:v "Appointment/EjemploCita" ]
+  ] ; # 
+  fhir:actor [
+     fhir:link <http://agenda.cl/Patient/EjemploPaciente> ;
+     fhir:reference [ fhir:v "Patient/EjemploPaciente" ]
+  ] ; # 
+  fhir:participantStatus [ fhir:v "accepted"] . # 
+
+# -------------------------------------------------------------------------------------
+

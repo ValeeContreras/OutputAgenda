@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Appointment xmlns="http://hl7.org/fhir">
+  <id value="EjemploCita"/>
+  <meta>
+    <profile value="http://agenda.cl/StructureDefinition/Cita"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Appointment</b><a name="EjemploCita"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Appointment &quot;EjemploCita&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-Cita.html">Perfil Cita</a></p></div><p><b>Sintomas Especiales</b>: 01</p><p><b>Urgencia percicida del paciente</b>: 02</p><p><b>Prestaciones</b>: 2</p><p><b>Apellido Servicio</b>: Comentario de la cita</p><p><b>status</b>: waitlist</p><p><b>specialty</b>: 408467006 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> ([not stated]#408467006)</span></p><h3>Participants</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Actor</b></td><td><b>Status</b></td></tr><tr><td style="display: none">*</td><td><a href="Practitioner-EjemploPrestador.html">Practitioner/EjemploPrestador</a> &quot; SEBASTIAN ALBERTO&quot;</td><td>accepted</td></tr></table></div>
+  </text>
+  <extension url="http://agenda.cl/StructureDefinition/SintomasEspeciales">
+    <valueCode value="01"/>
+  </extension>
+  <extension url="http://agenda.cl/StructureDefinition/UrgenciaPercibida">
+    <valueCode value="02"/>
+  </extension>
+  <extension url="http://agenda.cl/StructureDefinition/Prestaciones">
+    <valueCode value="2"/>
+  </extension>
+  <extension url="http://agenda.cl/StructureDefinition/ApellidoServicio">
+    <valueString value="Comentario de la cita"/>
+  </extension>
+  <status value="waitlist"/>
+  <specialty>
+    <coding>
+      <code value="408467006"/>
+    </coding>
+  </specialty>
+  <participant>
+    <actor>
+      <reference value="Practitioner/EjemploPrestador"/>
+    </actor>
+    <status value="accepted"/>
+  </participant>
+</Appointment>

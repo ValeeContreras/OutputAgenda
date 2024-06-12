@@ -1,0 +1,60 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://agenda.cl/ValueSet/VSEspecialidadesDeisCL",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "VSEspecialidadesDeisCL",
+      "title" : "VS Códigos de Especialidades",
+      "description" : "Códigos de especialidades médicas descritas según DEIS",
+      "systems" : [
+        "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL"
+      ]
+    },
+    {
+      "url" : "http://agenda.cl/ValueSet/VSPrestaciones",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "VSPrestaciones",
+      "title" : "VS Prestaciones",
+      "description" : "Prestaciones",
+      "systems" : ["http://agenda.cl/CodeSystem/CSPrestaciones"]
+    },
+    {
+      "url" : "http://agenda.cl/ValueSet/VSPrevision",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "VSPrevision",
+      "title" : "VS Prevision",
+      "description" : "Previsión del paciente",
+      "systems" : ["http://agenda.cl/CodeSystem/CSPrevision"]
+    },
+    {
+      "url" : "http://agenda.cl/ValueSet/VSServicios",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "VSServicios",
+      "title" : "VS SERVICIOS",
+      "description" : "Servicio que dara el prestador",
+      "systems" : ["http://agenda.cl/CodeSystem/CSServicios"]
+    },
+    {
+      "url" : "http://agenda.cl/ValueSet/VSSintomasEspeciales",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "VSSintomasEspeciales",
+      "title" : "VS Sintomas Especiales",
+      "description" : "Sintomas especiales del paciente",
+      "systems" : ["http://agenda.cl/CodeSystem/CSSintomasEspeciales"]
+    },
+    {
+      "url" : "http://agenda.cl/ValueSet/VSUrgenciaPercibida",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "VSUrgenciaPercibida",
+      "title" : "VS Urgencia Percibida",
+      "description" : "Traigo los codigos de la urgencia percibida",
+      "systems" : ["http://agenda.cl/CodeSystem/CSUrgenciaPercibida"]
+    }
+  ]
+}

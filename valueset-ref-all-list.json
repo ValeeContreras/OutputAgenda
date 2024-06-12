@@ -1,0 +1,483 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://agenda.cl/ValueSet/VSEspecialidadesDeisCL",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "VSEspecialidadesDeisCL",
+      "title" : "VS Códigos de Especialidades",
+      "description" : "Códigos de especialidades médicas descritas según DEIS",
+      "systems" : [
+        "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL"
+      ]
+    },
+    {
+      "url" : "http://agenda.cl/ValueSet/VSPrestaciones",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "VSPrestaciones",
+      "title" : "VS Prestaciones",
+      "description" : "Prestaciones",
+      "systems" : ["http://agenda.cl/CodeSystem/CSPrestaciones"],
+      "uses" : {
+      },
+      "StructureDefinition-Prestaciones.html" : "Prestaciones"
+    },
+    {
+      "url" : "http://agenda.cl/ValueSet/VSPrevision",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "VSPrevision",
+      "title" : "VS Prevision",
+      "description" : "Previsión del paciente",
+      "systems" : ["http://agenda.cl/CodeSystem/CSPrevision"],
+      "uses" : {
+      },
+      "StructureDefinition-Prevision.html" : "Prevision del paciente"
+    },
+    {
+      "url" : "http://agenda.cl/ValueSet/VSServicios",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "VSServicios",
+      "title" : "VS SERVICIOS",
+      "description" : "Servicio que dara el prestador",
+      "systems" : ["http://agenda.cl/CodeSystem/CSServicios"],
+      "uses" : {
+      },
+      "StructureDefinition-Servicios.html" : "Servicio del prestador"
+    },
+    {
+      "url" : "http://agenda.cl/ValueSet/VSSintomasEspeciales",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "VSSintomasEspeciales",
+      "title" : "VS Sintomas Especiales",
+      "description" : "Sintomas especiales del paciente",
+      "systems" : ["http://agenda.cl/CodeSystem/CSSintomasEspeciales"],
+      "uses" : {
+      },
+      "StructureDefinition-SintomasEspeciales.html" : "Sintomas Especiales"
+    },
+    {
+      "url" : "http://agenda.cl/ValueSet/VSUrgenciaPercibida",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "VSUrgenciaPercibida",
+      "title" : "VS Urgencia Percibida",
+      "description" : "Traigo los codigos de la urgencia percibida",
+      "systems" : ["http://agenda.cl/CodeSystem/CSUrgenciaPercibida"],
+      "uses" : {
+      },
+      "StructureDefinition-UrgenciaPercibida.html" : "Urgencia percicida del paciente"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/administrative-gender",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "AdministrativeGender",
+      "title" : "AdministrativeGender",
+      "description" : "The gender of a person used for administrative purposes.",
+      "systems" : ["http://hl7.org/fhir/administrative-gender"],
+      "oids" : ["2.16.840.1.113883.4.642.3.1"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1"],
+      "uses" : {
+      },
+      "StructureDefinition-Prestador.html" : "Perfil del Prestador",
+      "StructureDefinition-Paciente.html" : "Perfil del Paciente"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/appointment-cancellation-reason",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "AppointmentCancellationReason",
+      "title" : "Appointment cancellation reason",
+      "description" : "This example value set defines a set of reasons for the cancellation of an appointment.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/appointment-cancellation-reason"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.1381"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1381"],
+      "uses" : {
+      },
+      "StructureDefinition-Cita.html" : "Perfil Cita"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/appointmentstatus",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "AppointmentStatus",
+      "title" : "AppointmentStatus",
+      "description" : "The free/busy status of an appointment.",
+      "systems" : ["http://hl7.org/fhir/appointmentstatus"],
+      "oids" : ["2.16.840.1.113883.4.642.3.484"],
+      "sources" : ["2.16.840.1.113883.4.642.3.484"],
+      "uses" : {
+      },
+      "StructureDefinition-Cita.html" : "Perfil Cita"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/c80-practice-codes",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "PracticeSettingCodeValueSet",
+      "title" : "Practice Setting Code Value Set",
+      "description" : "This is the code representing the clinical specialty of the clinician or provider who interacted with, treated, or provided a service to/for the patient. The value set used for clinical specialty has been limited by HITSP to the value set reproduced from HITSP C80 Table 2-149 Clinical Specialty Value Set Definition.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.3.88.12.80.72"],
+      "sources" : ["2.16.840.1.113883.3.88.12.80.72"],
+      "uses" : {
+      },
+      "StructureDefinition-Cita.html" : "Perfil Cita",
+      "StructureDefinition-ServicioDeSalud.html" : "Perfil del Servicio De Salud",
+      "StructureDefinition-RolPrestador.html" : "Perfil del Rol del Prestador"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/contactentity-type",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ContactEntityType",
+      "title" : "Contact entity type",
+      "description" : "This example value set defines a set of codes that can be used to indicate the purpose for which you would contact a contact party.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/contactentity-type"],
+      "oids" : ["2.16.840.1.113883.4.642.3.416"],
+      "sources" : ["2.16.840.1.113883.4.642.3.416"],
+      "uses" : {
+      },
+      "StructureDefinition-Organizacion.html" : "Perfil de la Organización"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/days-of-week",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "DaysOfWeek",
+      "title" : "DaysOfWeek",
+      "description" : "The days of the week.",
+      "systems" : ["http://hl7.org/fhir/days-of-week"],
+      "oids" : ["2.16.840.1.113883.4.642.3.512"],
+      "sources" : ["2.16.840.1.113883.4.642.3.512"],
+      "uses" : {
+      },
+      "StructureDefinition-ServicioDeSalud.html" : "Perfil del Servicio De Salud",
+      "StructureDefinition-RolPrestador.html" : "Perfil del Rol del Prestador"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/encounter-participant-type",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ParticipantType",
+      "title" : "Participant type",
+      "description" : "This value set defines a set of codes that can be used to indicate how an individual participates in an encounter.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/participant-type",
+        "http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.250"],
+      "sources" : ["2.16.840.1.113883.4.642.3.250"],
+      "uses" : {
+      },
+      "StructureDefinition-Cita.html" : "Perfil Cita",
+      "StructureDefinition-CitaRespuesta.html" : "Perfil de la Respuesta a la cita."
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/encounter-reason",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "EncounterReasonCodes",
+      "title" : "Encounter Reason Codes",
+      "description" : "This examples value set defines the set of codes that can be used to indicate reasons for an encounter.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.261"],
+      "sources" : ["2.16.840.1.113883.4.642.3.261"],
+      "uses" : {
+      },
+      "StructureDefinition-Cita.html" : "Perfil Cita"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/identifier-use",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "IdentifierUse",
+      "title" : "IdentifierUse",
+      "description" : "Identifies the purpose for this identifier, if known .",
+      "systems" : ["http://hl7.org/fhir/identifier-use"],
+      "oids" : ["2.16.840.1.113883.4.642.3.57"],
+      "sources" : ["2.16.840.1.113883.4.642.3.57"],
+      "uses" : {
+      },
+      "StructureDefinition-Paciente.html" : "Perfil del Paciente"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/languages",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "CommonLanguages",
+      "title" : "Common Languages",
+      "description" : "This value set includes common codes from BCP-47 (http://tools.ietf.org/html/bcp47)",
+      "systems" : ["urn:ietf:bcp:47"],
+      "oids" : ["2.16.840.1.113883.4.642.3.20"],
+      "sources" : ["2.16.840.1.113883.4.642.3.20"],
+      "uses" : {
+      },
+      "StructureDefinition-Prestador.html" : "Perfil del Prestador",
+      "StructureDefinition-Cita.html" : "Perfil Cita",
+      "StructureDefinition-CitaRespuesta.html" : "Perfil de la Respuesta a la cita.",
+      "StructureDefinition-Organizacion.html" : "Perfil de la Organización",
+      "StructureDefinition-ServicioDeSalud.html" : "Perfil del Servicio De Salud",
+      "StructureDefinition-Paciente.html" : "Perfil del Paciente",
+      "StructureDefinition-RolPrestador.html" : "Perfil del Rol del Prestador"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/link-type",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "LinkType",
+      "title" : "LinkType",
+      "description" : "The type of link between this patient resource and another patient resource.",
+      "systems" : ["http://hl7.org/fhir/link-type"],
+      "oids" : ["2.16.840.1.113883.4.642.3.423"],
+      "sources" : ["2.16.840.1.113883.4.642.3.423"],
+      "uses" : {
+      },
+      "StructureDefinition-Paciente.html" : "Perfil del Paciente"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/marital-status",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "Marital Status Codes",
+      "title" : "MaritalStatus",
+      "description" : "This value set defines the set of codes that can be used to indicate the marital status of a person.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.29"],
+      "sources" : ["2.16.840.1.113883.4.642.3.29"],
+      "uses" : {
+      },
+      "StructureDefinition-Paciente.html" : "Perfil del Paciente"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/name-use",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "NameUse",
+      "title" : "NameUse",
+      "description" : "The use of a human name.",
+      "systems" : ["http://hl7.org/fhir/name-use"],
+      "oids" : ["2.16.840.1.113883.4.642.3.65"],
+      "sources" : ["2.16.840.1.113883.4.642.3.65"],
+      "uses" : {
+      },
+      "StructureDefinition-Prestador.html" : "Perfil del Prestador",
+      "StructureDefinition-Paciente.html" : "Perfil del Paciente"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/organization-type",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "OrganizationType",
+      "title" : "Organization type",
+      "description" : "This example value set defines a set of codes that can be used to indicate a type of organization.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/organization-type"],
+      "oids" : ["2.16.840.1.113883.4.642.3.414"],
+      "sources" : ["2.16.840.1.113883.4.642.3.414"],
+      "uses" : {
+      },
+      "StructureDefinition-Organizacion.html" : "Perfil de la Organización"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/participantrequired",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ParticipantRequired",
+      "title" : "ParticipantRequired",
+      "description" : "Is the Participant required to attend the appointment.",
+      "systems" : ["http://hl7.org/fhir/participantrequired"],
+      "oids" : ["2.16.840.1.113883.4.642.3.488"],
+      "sources" : ["2.16.840.1.113883.4.642.3.488"],
+      "uses" : {
+      },
+      "StructureDefinition-Cita.html" : "Perfil Cita"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/participationstatus",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ParticipationStatus",
+      "title" : "ParticipationStatus",
+      "description" : "The Participation status of an appointment.",
+      "systems" : ["http://hl7.org/fhir/participationstatus"],
+      "oids" : ["2.16.840.1.113883.4.642.3.486"],
+      "sources" : ["2.16.840.1.113883.4.642.3.486"],
+      "uses" : {
+      },
+      "StructureDefinition-Cita.html" : "Perfil Cita",
+      "StructureDefinition-CitaRespuesta.html" : "Perfil de la Respuesta a la cita."
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/patient-contactrelationship",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "PatientContactRelationship",
+      "title" : "Patient Contact Relationship ",
+      "description" : "The nature of the relationship between the patient and the contact person.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0131"],
+      "oids" : ["2.16.840.1.113883.4.642.3.1130"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1130"],
+      "uses" : {
+      },
+      "StructureDefinition-Paciente.html" : "Perfil del Paciente"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/practitioner-role",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "PractitionerRole",
+      "title" : "Practitioner role",
+      "description" : "This example value set defines a set of codes that can be used to indicate the role of a Practitioner.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/practitioner-role",
+        "http://snomed.info/sct"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.439"],
+      "sources" : ["2.16.840.1.113883.4.642.3.439"],
+      "uses" : {
+      },
+      "StructureDefinition-RolPrestador.html" : "Perfil del Rol del Prestador"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/program",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "Program",
+      "title" : "Program",
+      "description" : "This value set defines an example set of codes that could be can be used to classify groupings of service-types/specialties.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/program"],
+      "oids" : ["2.16.840.1.113883.4.642.3.1383"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1383"],
+      "uses" : {
+      },
+      "StructureDefinition-ServicioDeSalud.html" : "Perfil del Servicio De Salud"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/service-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ServiceCategory",
+      "title" : "Service category",
+      "description" : "This value set defines an example set of codes that can be used to classify groupings of service-types/specialties.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/service-category"],
+      "oids" : ["2.16.840.1.113883.4.642.3.516"],
+      "sources" : ["2.16.840.1.113883.4.642.3.516"],
+      "uses" : {
+      },
+      "StructureDefinition-Cita.html" : "Perfil Cita",
+      "StructureDefinition-ServicioDeSalud.html" : "Perfil del Servicio De Salud"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/service-provision-conditions",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ServiceProvisionConditions",
+      "title" : "ServiceProvisionConditions",
+      "description" : "The code(s) that detail the conditions under which the healthcare service is available/offered.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/service-provision-conditions"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.514"],
+      "sources" : ["2.16.840.1.113883.4.642.3.514"],
+      "uses" : {
+      },
+      "StructureDefinition-ServicioDeSalud.html" : "Perfil del Servicio De Salud"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/service-referral-method",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ReferralMethod",
+      "title" : "ReferralMethod",
+      "description" : "The methods of referral can be used when referring to a specific HealthCareService resource.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/service-referral-method"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.510"],
+      "sources" : ["2.16.840.1.113883.4.642.3.510"],
+      "uses" : {
+      },
+      "StructureDefinition-ServicioDeSalud.html" : "Perfil del Servicio De Salud"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/service-type",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ServiceType",
+      "title" : "Service type",
+      "description" : "This value set defines an example set of codes of service-types.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/service-type"],
+      "oids" : ["2.16.840.1.113883.4.642.3.518"],
+      "sources" : ["2.16.840.1.113883.4.642.3.518"],
+      "uses" : {
+      },
+      "StructureDefinition-Cita.html" : "Perfil Cita",
+      "StructureDefinition-ServicioDeSalud.html" : "Perfil del Servicio De Salud"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v2-0276",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "Hl7VSAppointmentReasonCodes",
+      "title" : "hl7VS-appointmentReasonCodes",
+      "description" : "Value Set of codes that describe the kind of appointment or the reason why an appointment has been scheduled.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0276"],
+      "oids" : ["2.16.840.1.113883.21.181"],
+      "sources" : ["2.16.840.1.113883.21.181"],
+      "uses" : {
+      },
+      "StructureDefinition-Cita.html" : "Perfil Cita"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v2-2.7-0360",
+      "version" : "0360",
+      "status" : "active",
+      "name" : "v2.0360.2.7",
+      "title" : "v2 table 0360, Version 2.7",
+      "description" : "FHIR Value set/code system definition for HL7 v2 table 0360 ver 2.9 ( Degree/License/Certificate)",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0360|2.7"],
+      "uses" : {
+      },
+      "StructureDefinition-Prestador.html" : "Perfil del Prestador"
+    },
+    {
+      "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSEspecialidadesDeisCL",
+      "version" : "1.8.5",
+      "status" : "active",
+      "name" : "VSEspecialidadesDeisCL",
+      "title" : "Códigos de Especialidades",
+      "description" : "Códigos de especialidades médicas descritas según DEIS",
+      "systems" : [
+        "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-VSEspecialidadesDeisCL.html" : "Especialidad del médico principal"
+    },
+    {
+      "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSTiposDocumentos",
+      "version" : "1.8.5",
+      "status" : "active",
+      "name" : "VSTiposDocumentos",
+      "title" : "Tipos de Documentos",
+      "description" : "Tipos de Documentos para identificación según tabla HL7 V3 y CodeSystem local.",
+      "systems" : [
+        "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoDNI",
+        "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador",
+        "http://terminology.hl7.org/CodeSystem/v2-0203"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-Paciente.html" : "Perfil del Paciente"
+    }
+  ]
+}

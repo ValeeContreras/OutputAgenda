@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Practitioner xmlns="http://hl7.org/fhir">
+  <id value="EjemploPrestador"/>
+  <meta>
+    <profile value="http://agenda.cl/StructureDefinition/Prestador"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Practitioner</b><a name="EjemploPrestador"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Practitioner &quot;EjemploPrestador&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-Prestador.html">Perfil del Prestador</a></p></div><p><b>Especialidad del médico principal</b>: 28 (Details: [not stated] code 28 = '28', stated as 'null')</p><p><b>name</b>: Navarro Sebastian Alberto </p><blockquote><p><b>qualification</b></p><p><b>code</b>: Certificado(s) <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (#2112 &quot;Certificado Profesional Médico Cirujano&quot;)</span></p></blockquote><blockquote><p><b>qualification</b></p><p><b>code</b>: Especialidad(es) <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (#122 &quot;Cardiología&quot;)</span></p></blockquote><blockquote><p><b>qualification</b></p><p><b>code</b>: Especialidad(es) <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (#1234 &quot;Medicina interna&quot;)</span></p></blockquote></div>
+  </text>
+  <extension url="http://agenda.cl/StructureDefinition/VSEspecialidadesDeisCL">
+    <valueCoding>
+      <code value="28"/>
+    </valueCoding>
+  </extension>
+  <name>
+    <family value="Sebastian Alberto"/>
+    <given value="Navarro"/>
+  </name>
+  <qualification>
+    <code>
+      <coding>
+        <system value="https://api.minsal.cl/v1/catalogos/profesiones/"/>
+        <code value="2112"/>
+        <display value="Certificado Profesional Médico Cirujano"/>
+      </coding>
+      <text value="Certificado(s)"/>
+    </code>
+  </qualification>
+  <qualification>
+    <code>
+      <coding>
+        <system value="https://api.minsal.cl/v1/catalogos/tiposEspecialidadMedica/"/>
+        <code value="122"/>
+        <display value="Cardiología"/>
+      </coding>
+      <text value="Especialidad(es)"/>
+    </code>
+  </qualification>
+  <qualification>
+    <code>
+      <coding>
+        <system value="https://api.minsal.cl/v1/catalogos/tiposEspecialidadMedica/"/>
+        <code value="1234"/>
+        <display value="Medicina interna"/>
+      </coding>
+      <text value="Especialidad(es)"/>
+    </code>
+  </qualification>
+</Practitioner>

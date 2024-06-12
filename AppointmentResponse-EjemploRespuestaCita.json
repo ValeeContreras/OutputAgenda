@@ -1,0 +1,18 @@
+{
+  "resourceType" : "AppointmentResponse",
+  "id" : "EjemploRespuestaCita",
+  "meta" : {
+    "profile" : ["http://agenda.cl/StructureDefinition/CitaRespuesta"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: AppointmentResponse</b><a name=\"EjemploRespuestaCita\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource AppointmentResponse &quot;EjemploRespuestaCita&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-CitaRespuesta.html\">Perfil de la Respuesta a la cita.</a></p></div><p><b>appointment</b>: <a href=\"Appointment-EjemploCita.html\">Appointment/EjemploCita</a></p><p><b>actor</b>: <a href=\"Patient-EjemploPaciente.html\">Patient/EjemploPaciente</a> &quot; VALENTINA DANIELA&quot;</p><p><b>participantStatus</b>: accepted</p></div>"
+  },
+  "appointment" : {
+    "reference" : "Appointment/EjemploCita"
+  },
+  "actor" : {
+    "reference" : "Patient/EjemploPaciente"
+  },
+  "participantStatus" : "accepted"
+}

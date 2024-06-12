@@ -1,0 +1,16 @@
+Agenda
+=========================================
+
+Generic: line 0, col 0, Error - The link 'Inicio.html' for "Inicio" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Warning - The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)
+C:\GIAgenda\Agenda\fsh-generated\resources\Appointment-EjemploCita.json: line 10, col 6, Warning - El Coding no tiene sistema - no puede ser validado (INVALID)
+C:\GIAgenda\Agenda\fsh-generated\resources\Practitioner-EjemploPrestador.json: line 58, col 8, Warning - Un código sin sistema no tiene un significado definido. El elemento system debe estar presente (CODEINVALID)
+C:\GIAgenda\Agenda\fsh-generated\resources\Practitioner-EjemploPrestador.json: line 19, col 8, Info - A definition for CodeSystem 'https://api.minsal.cl/v1/catalogos/profesiones/' could not be found, so the code cannot be validated (NOTFOUND)
+C:\GIAgenda\Agenda\fsh-generated\resources\Practitioner-EjemploPrestador.json: line 31, col 8, Info - A definition for CodeSystem 'https://api.minsal.cl/v1/catalogos/tiposEspecialidadMedica/' could not be found, so the code cannot be validated (NOTFOUND)
+C:\GIAgenda\Agenda\fsh-generated\resources\Practitioner-EjemploPrestador.json: line 43, col 8, Info - El URI para el Code System 'https://api.minsal.cl/v1/catalogos/tiposEspecialidadMedica/' es desconocido asi que el código no puede ser validado (NOTFOUND)
+
+err = 0, warn = 6, info = 3
+IG Publisher Version: 1.5.16

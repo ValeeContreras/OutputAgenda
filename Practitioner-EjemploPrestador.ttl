@@ -1,0 +1,62 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://agenda.cl/Practitioner/EjemploPrestador> a fhir:Practitioner ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "EjemploPrestador"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://agenda.cl/StructureDefinition/Prestador"^^xsd:anyURI ;
+       fhir:link <http://agenda.cl/StructureDefinition/Prestador>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Practitioner</b><a name=\"EjemploPrestador\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Practitioner &quot;EjemploPrestador&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Prestador.html\">Perfil del Prestador</a></p></div><p><b>Especialidad del médico principal</b>: 28 (Details: [not stated] code 28 = '28', stated as 'null')</p><p><b>name</b>: Navarro Sebastian Alberto </p><blockquote><p><b>qualification</b></p><p><b>code</b>: Certificado(s) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#2112 &quot;Certificado Profesional Médico Cirujano&quot;)</span></p></blockquote><blockquote><p><b>qualification</b></p><p><b>code</b>: Especialidad(es) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#122 &quot;Cardiología&quot;)</span></p></blockquote><blockquote><p><b>qualification</b></p><p><b>code</b>: Especialidad(es) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#1234 &quot;Medicina interna&quot;)</span></p></blockquote></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://agenda.cl/StructureDefinition/VSEspecialidadesDeisCL"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Coding ;
+       fhir:code [ fhir:v "28" ]
+     ]
+  ] ) ; # 
+  fhir:name ( [
+     fhir:family [ fhir:v "Sebastian Alberto" ] ;
+     fhir:given ( [ fhir:v "Navarro" ] )
+  ] ) ; # 
+  fhir:qualification ( [
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://api.minsal.cl/v1/catalogos/profesiones/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "2112" ] ;
+         fhir:display [ fhir:v "Certificado Profesional Médico Cirujano" ]
+       ] ) ;
+       fhir:text [ fhir:v "Certificado(s)" ]
+     ]
+  ] [
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://api.minsal.cl/v1/catalogos/tiposEspecialidadMedica/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "122" ] ;
+         fhir:display [ fhir:v "Cardiología" ]
+       ] ) ;
+       fhir:text [ fhir:v "Especialidad(es)" ]
+     ]
+  ] [
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://api.minsal.cl/v1/catalogos/tiposEspecialidadMedica/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "1234" ] ;
+         fhir:display [ fhir:v "Medicina interna" ]
+       ] ) ;
+       fhir:text [ fhir:v "Especialidad(es)" ]
+     ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

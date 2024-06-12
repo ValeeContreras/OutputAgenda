@@ -1,0 +1,29 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "VSServicios",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-CSServicios.html\"><code>http://agenda.cl/CodeSystem/CSServicios</code></a></li></ul></div>"
+  },
+  "url" : "http://agenda.cl/ValueSet/VSServicios",
+  "version" : "0.1.0",
+  "name" : "VSServicios",
+  "title" : "VS SERVICIOS",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2024-06-11T20:58:46-04:00",
+  "publisher" : "Valentina Contreras",
+  "contact" : [{
+    "name" : "Valentina Contreras",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Servicio que dara el prestador",
+  "compose" : {
+    "include" : [{
+      "system" : "http://agenda.cl/CodeSystem/CSServicios"
+    }]
+  }
+}

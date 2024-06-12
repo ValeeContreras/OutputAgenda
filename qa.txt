@@ -1,0 +1,89 @@
+Agenda : Validation Results
+=========================================
+
+err = 0, warn = 6, info = 3
+IG Publisher Version: 1.5.16 Out of date - current version is 1.6.11
+Generated Tue Jun 11 21:01:30 CLT 2024. FHIR version 4.0.1 for fhir.agenda#0.1.0 (canonical = http://agenda.cl)
+ Build Errors : 1 / 4 / 0
+ C:\GIAgenda\Agenda\fsh-generated\resources\Appointment-EjemploCita : 0 / 1 / 1
+ C:\GIAgenda\Agenda\fsh-generated\resources\AppointmentResponse-EjemploRespuestaCita : 0 / 0 / 1
+ C:\GIAgenda\Agenda\fsh-generated\resources\CodeSystem-CSEspecialidadesDeisCL : 0 / 0 / 1
+ C:\GIAgenda\Agenda\fsh-generated\resources\CodeSystem-CSPrestaciones : 0 / 0 / 1
+ C:\GIAgenda\Agenda\fsh-generated\resources\CodeSystem-CSPrevision : 0 / 0 / 1
+ C:\GIAgenda\Agenda\fsh-generated\resources\CodeSystem-CSServicios : 0 / 0 / 1
+ C:\GIAgenda\Agenda\fsh-generated\resources\CodeSystem-CSSintomasEspeciales : 0 / 0 / 1
+ C:\GIAgenda\Agenda\fsh-generated\resources\CodeSystem-CSUrgenciaPercibida : 0 / 0 / 1
+ C:\GIAgenda\Agenda\fsh-generated\resources\HealthcareService-EjemploServicioDeSalud : 0 / 0 / 1
+ C:\GIAgenda\Agenda\fsh-generated\resources\ImplementationGuide-fhir.agenda : 0 / 0 / 1
+ C:\GIAgenda\Agenda\fsh-generated\resources\Organization-EjemploOrganizacion : 0 / 0 / 1
+ C:\GIAgenda\Agenda\fsh-generated\resources\Patient-EjemploPaciente : 0 / 0 / 1
+ C:\GIAgenda\Agenda\fsh-generated\resources\Practitioner-EjemploPrestador : 0 / 1 / 4
+ C:\GIAgenda\Agenda\fsh-generated\resources\PractitionerRole-EjemploRolPrestador : 0 / 0 / 1
+ C:\GIAgenda\Agenda\fsh-generated\resources\StructureDefinition-ApellidoServicio : 0 / 0 / 1
+ C:\GIAgenda\Agenda\fsh-generated\resources\StructureDefinition-Cita : 0 / 0 / 1
+ C:\GIAgenda\Agenda\fsh-generated\resources\StructureDefinition-CitaRespuesta : 0 / 0 / 1
+ C:\GIAgenda\Agenda\fsh-generated\resources\StructureDefinition-Edad : 0 / 0 / 1
+ C:\GIAgenda\Agenda\fsh-generated\resources\StructureDefinition-Organizacion : 0 / 0 / 1
+ C:\GIAgenda\Agenda\fsh-generated\resources\StructureDefinition-Paciente : 0 / 0 / 1
+ C:\GIAgenda\Agenda\fsh-generated\resources\StructureDefinition-Prestaciones : 0 / 0 / 1
+ C:\GIAgenda\Agenda\fsh-generated\resources\StructureDefinition-Prestador : 0 / 0 / 1
+ C:\GIAgenda\Agenda\fsh-generated\resources\StructureDefinition-Prevision : 0 / 0 / 1
+ C:\GIAgenda\Agenda\fsh-generated\resources\StructureDefinition-RolPrestador : 0 / 0 / 1
+ C:\GIAgenda\Agenda\fsh-generated\resources\StructureDefinition-ServicioDeSalud : 0 / 0 / 1
+ C:\GIAgenda\Agenda\fsh-generated\resources\StructureDefinition-Servicios : 0 / 0 / 1
+ C:\GIAgenda\Agenda\fsh-generated\resources\StructureDefinition-SintomasEspeciales : 0 / 0 / 1
+ C:\GIAgenda\Agenda\fsh-generated\resources\StructureDefinition-UrgenciaPercibida : 0 / 0 / 1
+ C:\GIAgenda\Agenda\fsh-generated\resources\StructureDefinition-VSEspecialidadesDeisCL : 0 / 0 / 1
+ C:\GIAgenda\Agenda\fsh-generated\resources\ValueSet-VSEspecialidadesDeisCL : 0 / 0 / 1
+ C:\GIAgenda\Agenda\fsh-generated\resources\ValueSet-VSPrestaciones : 0 / 0 / 1
+ C:\GIAgenda\Agenda\fsh-generated\resources\ValueSet-VSPrevision : 0 / 0 / 1
+ C:\GIAgenda\Agenda\fsh-generated\resources\ValueSet-VSServicios : 0 / 0 / 1
+ C:\GIAgenda\Agenda\fsh-generated\resources\ValueSet-VSSintomasEspeciales : 0 / 0 / 1
+ C:\GIAgenda\Agenda\fsh-generated\resources\ValueSet-VSUrgenciaPercibida : 0 / 0 / 1
+</table>
+== n/a ==
+ERROR: C:\GIAgenda\Agenda\output\Index.html#/html/body/div/div/div/div/div/ul/li/a at Line 174, column 8: The link 'Inicio.html' for "Inicio" cannot be resolved
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated\resources\Appointment-EjemploCita.json ==
+WARNING: Appointment/EjemploCita: Appointment.specialty[0].coding[0]: El Coding no tiene sistema - no puede ser validado
+== fsh-generated\resources\AppointmentResponse-EjemploRespuestaCita.json ==
+== fsh-generated\resources\CodeSystem-CSEspecialidadesDeisCL.json ==
+== fsh-generated\resources\CodeSystem-CSPrestaciones.json ==
+== fsh-generated\resources\CodeSystem-CSPrevision.json ==
+== fsh-generated\resources\CodeSystem-CSServicios.json ==
+== fsh-generated\resources\CodeSystem-CSSintomasEspeciales.json ==
+== fsh-generated\resources\CodeSystem-CSUrgenciaPercibida.json ==
+== fsh-generated\resources\HealthcareService-EjemploServicioDeSalud.json ==
+== fsh-generated\resources\ImplementationGuide-fhir.agenda.json ==
+== fsh-generated\resources\Organization-EjemploOrganizacion.json ==
+== fsh-generated\resources\Patient-EjemploPaciente.json ==
+== fsh-generated\resources\Practitioner-EjemploPrestador.json ==
+WARNING: Practitioner/EjemploPrestador: Practitioner.extension[0].value.ofType(Coding): Un código sin sistema no tiene un significado definido. El elemento system debe estar presente
+INFORMATION: Practitioner/EjemploPrestador: Practitioner.qualification[0].code.coding[0].system: A definition for CodeSystem 'https://api.minsal.cl/v1/catalogos/profesiones/' could not be found, so the code cannot be validated
+INFORMATION: Practitioner/EjemploPrestador: Practitioner.qualification[1].code.coding[0].system: A definition for CodeSystem 'https://api.minsal.cl/v1/catalogos/tiposEspecialidadMedica/' could not be found, so the code cannot be validated
+INFORMATION: Practitioner/EjemploPrestador: Practitioner.qualification[2].code.coding[0]: El URI para el Code System 'https://api.minsal.cl/v1/catalogos/tiposEspecialidadMedica/' es desconocido asi que el código no puede ser validado
+== fsh-generated\resources\PractitionerRole-EjemploRolPrestador.json ==
+== fsh-generated\resources\StructureDefinition-ApellidoServicio.json ==
+== fsh-generated\resources\StructureDefinition-Cita.json ==
+== fsh-generated\resources\StructureDefinition-CitaRespuesta.json ==
+== fsh-generated\resources\StructureDefinition-Edad.json ==
+== fsh-generated\resources\StructureDefinition-Organizacion.json ==
+== fsh-generated\resources\StructureDefinition-Paciente.json ==
+== fsh-generated\resources\StructureDefinition-Prestaciones.json ==
+== fsh-generated\resources\StructureDefinition-Prestador.json ==
+== fsh-generated\resources\StructureDefinition-Prevision.json ==
+== fsh-generated\resources\StructureDefinition-RolPrestador.json ==
+== fsh-generated\resources\StructureDefinition-ServicioDeSalud.json ==
+== fsh-generated\resources\StructureDefinition-Servicios.json ==
+== fsh-generated\resources\StructureDefinition-SintomasEspeciales.json ==
+== fsh-generated\resources\StructureDefinition-UrgenciaPercibida.json ==
+== fsh-generated\resources\StructureDefinition-VSEspecialidadesDeisCL.json ==
+== fsh-generated\resources\ValueSet-VSEspecialidadesDeisCL.json ==
+== fsh-generated\resources\ValueSet-VSPrestaciones.json ==
+== fsh-generated\resources\ValueSet-VSPrevision.json ==
+== fsh-generated\resources\ValueSet-VSServicios.json ==
+== fsh-generated\resources\ValueSet-VSSintomasEspeciales.json ==
+== fsh-generated\resources\ValueSet-VSUrgenciaPercibida.json ==

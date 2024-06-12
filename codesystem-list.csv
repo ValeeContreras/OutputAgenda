@@ -1,0 +1,7 @@
+URL,Version,Status,OIDs,Name,Title,Descriptino,Used
+http://agenda.cl/CodeSystem/CSEspecialidadesDeisCL,0.1.0,active,,CSEspecialidadesDeisCL,CS Códigos de Especialidades del medico tratante,"Códigos de especialidades médicas descritas según DEIS",
+http://agenda.cl/CodeSystem/CSPrestaciones,0.1.0,active,,CSPrestaciones,CS Prestaciones,"Codigos de las prestaciones",
+http://agenda.cl/CodeSystem/CSPrevision,0.1.0,active,,CSPrevision,CS Prevision,"Codigos de la previsión del paciente",
+http://agenda.cl/CodeSystem/CSServicios,0.1.0,active,,CSServicios,CSServicios,"Aca estan los codigos del servicio del prestador que dara la cita",
+http://agenda.cl/CodeSystem/CSSintomasEspeciales,0.1.0,active,,CSSintomasEspeciales,CS Sintomas Especiales,"Codigos de los sintomas que presenta el paciente.",
+http://agenda.cl/CodeSystem/CSUrgenciaPercibida,0.1.0,active,,CSUrgenciaPercibida,CS Urgencia Percibida,"Codidos de la urgencia percibida segun el paciente.",
